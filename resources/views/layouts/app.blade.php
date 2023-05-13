@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="corporate">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="emerald">
 
 <head>
     <meta charset="utf-8">
@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -23,8 +25,8 @@
 
         <!-- Page Heading -->
         @if (isset($header))
-            <header class="bg-base-300 shadow">
-                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <header class="bg-base-300 shadow text-base-content">
+                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6">
                     {{ $header }}
                 </div>
             </header>
@@ -40,5 +42,7 @@
         AOS.init();
     </script>
 </body>
+@stack('scripts')
+
 
 </html>

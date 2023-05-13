@@ -16,6 +16,7 @@
     },
     "dependencies": {
         "daisyui": "^2.51.6",
-        "preline": "^1.8.0"
+        "preline": "^1.8.0",
+        "swiper": "^9.3.1"
     }
 }

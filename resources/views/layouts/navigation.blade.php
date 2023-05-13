@@ -40,7 +40,8 @@
     </div>
     <div class="navbar-end hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
-            <li><a href="/about">About</a></li>
+            <li><a href="{{ url('/about') }}">About</a></li>
+            <li><a href="{{ url('/dashboard') }}">Dashboard</a></li>
             <li tabindex="0">
                 <a>
                     {{ Auth::user()->name }}

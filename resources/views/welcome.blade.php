@@ -1,5 +1,5 @@
 <x-master-layout>
-    <div class="hero h-[calc(100vh-4rem)]">
+    <div class="hero h-[calc(100vh-9rem)]">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <video autoplay loop playsinline muted class="max-w-sm rounded-lg shadow-2xl">
                 <source src="img/video ultrasound in 3D slide 1.mp4" type="video/mp4">
