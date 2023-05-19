@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="emerald">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="mytheme">
 
 <head>
     <meta charset="utf-8">
@@ -25,8 +25,8 @@
 
         <!-- Page Heading -->
         @if (isset($header))
-            <header class="bg-base-300 shadow text-base-content">
-                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6">
+            <header class="bg-base-200 shadow text-base-content">
+                <div class="max-w-7xl mx-auto py-3 px-4 sm:px-6">
                     {{ $header }}
                 </div>
             </header>

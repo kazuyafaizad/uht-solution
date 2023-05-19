@@ -8,8 +8,7 @@
 
             <div>
                 <h1 class="text-5xl font-bold">ULTRASOUND SONOACE R7 HEALTHCARE ​TRAINING SOLUTION​</h1>
-                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                    exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p class="py-6"></p>
                 <button class="btn btn-primary">Get Started</button>
                 <button class="btn btn-primary">Learn More</button>
             </div>

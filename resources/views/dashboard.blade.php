@@ -10,8 +10,8 @@
 
             <div
                 class="flex w-full grid-flow-row md:grid-cols-12 items-center gap-4 overflow-y-hidden overflow-x-scroll px-10 pt-1 pb-10 xl:grid xl:overflow-x-auto xl:px-4">
-                <div class="card col-span-3 row-span-3 w-full bg-base-100 shadow-xl">
-                    <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <div class="card col-span-3 row-span-3 w-full shadow-xl bg-neutral text-neutral-content">
+                    {{-- <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure> --}}
                     <div class="card-body">
                         <h2 class="card-title">Introduction</h2>
                         <ul>
@@ -30,13 +30,13 @@
                             <li>3D/3D Mode</li>
                         </ul>
                         <div class="card-actions justify-end">
-                            <a href="/introduction" class="btn btn-accent btn-sm ">Learn more</a>
+                            <a href="/introduction" class="btn btn-accent btn-block btn-block">Learn more</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="card col-span-3 row-span-3 w-full bg-base-100 shadow-xl">
-                    <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <div class="card col-span-3 row-span-3 w-full shadow-xl bg-neutral text-neutral-content">
+                    {{-- <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure> --}}
                     <div class="card-body">
                         <h2 class="card-title">Ultrasound Machine SonoAce R7</h2>
                         <ul>
@@ -45,13 +45,13 @@
                             <li>Probe</li>
                         </ul>
                         <div class="card-actions justify-end">
-                            <a href="/sonoace-r7" class="btn btn-accent btn-sm ">Learn more</a>
+                            <a href="/sonoace-r7" class="btn btn-accent btn-block ">Learn more</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="card col-span-3 row-span-3 w-full bg-base-100 shadow-xl">
-                    <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <div class="card col-span-3 row-span-3 w-full shadow-xl bg-neutral text-neutral-content">
+                    {{-- <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure> --}}
                     <div class="card-body">
                         <h2 class="card-title">Simulation</h2>
                         <ul>
@@ -68,13 +68,13 @@
 
                         </ul>
                         <div class="card-actions justify-end">
-                            <a href="/simulation" class="btn btn-accent btn-sm ">Learn more</a>
+                            <a href="/simulation" class="btn btn-accent btn-block ">Learn more</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="card col-span-3 row-span-3 w-full bg-base-100 shadow-xl">
-                    <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <div class="card col-span-3 row-span-3 w-full shadow-xl bg-neutral text-neutral-content">
+                    {{-- <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure> --}}
                     <div class="card-body">
                         <h2 class="card-title">Technical Part</h2>
                         <ul>
@@ -89,13 +89,13 @@
                             <li>Safety</li>
                         </ul>
                         <div class="card-actions justify-end">
-                            <a href="/introduction" class="btn btn-accent btn-sm ">Learn more</a>
+                            <a href="/introduction" class="btn btn-accent btn-block ">Learn more</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="card col-span-3 row-span-3 w-full bg-base-100 shadow-xl">
-                    <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <div class="card col-span-3 row-span-3 w-full shadow-xl bg-neutral text-neutral-content">
+                    {{-- <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure> --}}
                     <div class="card-body">
                         <h2 class="card-title">Assessment</h2>
                         <ul>
@@ -105,7 +105,7 @@
 
                         </ul>
                         <div class="card-actions justify-end">
-                            <a href="/introduction" class="btn btn-accent btn-sm ">Learn more</a>
+                            <a href="/introduction" class="btn btn-accent btn-block ">Learn more</a>
                         </div>
                     </div>
                 </div>

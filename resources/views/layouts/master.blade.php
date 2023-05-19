@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="emerald">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="mytheme">
 
 <head>
     <meta charset="utf-8">
@@ -20,7 +20,7 @@
 <body class="font-sans antialiased">
     <div class="min-h-screen bg-base-100">
 
-        <div class="navbar bg-base-200">
+        <div class="navbar bg-primary text-primary-content">
             <div class="flex-1">
                 <a class="btn btn-ghost normal-case text-xs" href="/">Ultrasound<br>Healthcare<br>Training
                     Solution</a>

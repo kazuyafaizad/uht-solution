@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="emerald">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="mytheme">
 
 <head>
     <meta charset="utf-8">
@@ -16,8 +16,8 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans  antialiased">
-    <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-base-100">
+<body class="font-sans antialiased">
+    <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-base-100 text-base-content">
         <div>
             <a href="/">
                 <a class="btn btn-ghost normal-case text-xs" href="/">Ultrasound<br>Healthcare<br>Training
@@ -25,7 +25,8 @@
             </a>
         </div>
 
-        <div class="w-full sm:max-w-md mt-6 px-6 py-4 shadow-md overflow-hidden sm:rounded-lg">
+        <div
+            class="w-full sm:max-w-md mt-6 px-6 py-4 shadow-md overflow-hidden sm:rounded-lg bg-primary text-primary-content">
             {{ $slot }}
         </div>
     </div>

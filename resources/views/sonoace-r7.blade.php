@@ -4,7 +4,7 @@
             {{ __('SONOACE R7') }}
         </h2>
     </x-slot>
-    <div class="flex h-[calc(100vh-9rem)]" data-aos="fade-up">
+    <div class="flex h-[calc(100vh-7.5rem)]" data-aos="fade-up">
         <div class="w-64 sticky top-0 h-full bg-gray-100">
             <ul class="menu bg-base-100 w-full">
                 <li><a class="active" href="#block-diagram">Block Diagram</a></li>
@@ -650,7 +650,7 @@
                 </div>
 
                 <div class="grid md:grid-cols-2">
-                    <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <div class="card card-compact w-96 bg-base-100 shadow-xl m-auto">
                         <figure><img src="/img/81)slide 73 probe curvilear.png" alt="probe1" />
                         </figure>
                         <div class="card-body">
@@ -658,7 +658,7 @@
                                 gynaecology.​</p>
                         </div>
                     </div>
-                    <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <div class="card card-compact w-96 bg-base-100 shadow-xl m-auto">
                         <figure><img src="img/82) slide 73... 3d 4d probe.png" alt="probe2" />
                         </figure>
                         <div class="card-body">
@@ -668,6 +668,254 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="my-4">
+                    <h2 class="text-xl mb-4">Ultrasound Transmission Gel​</h2>
+
+                    <p class="mb-4">Using an inappropriate ultrasound gel may damage the probe. For proper
+                        transmission of the
+                        acoustic beam, only use ultrasound transmission gel only approved by SAMUNGMEDISON​</p>
+                    <div class="grid grid-cols-2">
+                        <img src="img/83)slide 74 sono gel.png" alt="" class="m-auto">
+                        <img src="img/84)slide 74 ultrasound gel.png" alt="" class="w-52 m-auto">
+                    </div>
+                    <p><strong class="text-error">WARNING</strong><br> ​
+
+                        • Do not use mineral oil, Oil-based solutions, or other non-approved material as they may cause
+                        damage to the probe.​<br>
+
+                        • Do not use gels that contain any of the following agents:​<br>
+
+                        - Acetone​<br>
+
+                        - Methanol​<br>
+
+                        - Denatured Ethyl Alcohol​<br>
+
+                        - Mineral Oil​<br>
+
+                        - Iodine​<br>
+
+                        - Lanolin​<br>
+
+                        - Any lotions or gels containing perfume​</p>
+
+                </div>
+                <div class="my-4">
+                    <h2 class="text-xl mb-4">Sheaths​​</h2>
+
+                    <p class="mb-4">Sheaths are recommended for clinical applications of an invasive nature,
+                        including intra oprative, transrectal, and biopsy procedures.​</p>
+                    <p class="mb-4">SAMSUNG MEDISON does not fully sheaths so that you should purchase appropriate
+                        ones on your own.​</p>
+
+                    <img src="img/85)slide 75 sheaths.png" alt="" class="mb-4 mx-auto">
+
+
+                    <p>Always keep sheaths in a sterile state. ​<br>
+
+                        • Sheaths are disposable. Do not reuse them.​<br>
+
+                        • If sheaths are torn or soiled after use. Clean and disinfect the probe.​<br>
+
+                        • In neurosurgical applications. a disinfected probe must be used with sterile gel and a sterile
+                        ​<br>
+
+                        pyro.gen-free sheath.​<br>
+
+                        • If the sterile sheath becomes compromised during neurosurgical applications involving a ​
+
+                        patient with Creutzfeldt-Jakob disease. The probe cannot be successfully sterilized by any ​
+
+                        disinfection method.​<br>
+
+                        • Some sheaths contain natural rubber latex and talc. Which can cause allergic reactions in ​
+
+                        some individuals. Please refer to the FDA Medical Alert released on March 29.1991.​<br>
+
+                        1. Put on sterile gloves. Unpack the sheath and fill it with acoustic coupling gel.​<br>
+
+                        2. Insert the probe into the sheath and pull the latex tip to cover the probe completely. ​<br>
+
+                        If possible, cover the probe cable as well.​<br>
+
+                        3. Ensure that there is no air bubble within the ultrasound gel. If necessary, secure the
+                        sheath​
+
+                        to the probe and the probe cable. ​<br>
+
+                        4. Dispose of the sheath after use​</p>
+
+                </div>
+
+                <div class="my-4">
+                    <h2 class="text-xl mb-4">Disinfectants for System Surfaces (with Monitor)​</h2>
+                    <ul class="mb-4 list-disc">
+                        <li>Using a non-compatible disinfection procedure may result in damage to the system. Ensure to
+                            check the expiration date of the disinfectant prior to use.</li>
+                        <li>Mix the disinfectant solution to the strength specified on the instruction of the
+                            disinfectant manufacturer.</li>
+                        <li>When using a disinfectant, wipe it carefully with a soft cloth.</li>
+                        <li>Air dry the device according to the disinfectant manufacturer’s instruction, or remove water
+                            from all surfaces of the device using a sterile, lint-free cloth.</li>
+                        <li>Examine the device for damage such as cracks, splitting, sharp edges, or projections. If
+                            such damage is found, discontinue use of the device and contact your Samsung Medison
+                            representative.</li>
+                        <li>Multiple uses of the disinfectants may cause discoloration over time.</li>
+                        <li>Disinfectant residue may cause product malfunction. After using the disinfectant on the
+                            product, please ensure to remove any remaining disinfectant with a soft cloth before
+                            operating the product.</li>
+                    </ul>
+                    <img src="/img/86)slide 76.png" alt="" class="w-full max-w-5xl mx-auto">
+
+                    <small>For more infomation and details, click this file​</small>
+
+
+                </div>
+
+                <div class="my-4">
+                    <h2 class="text-xl mb-4">Cleaning, Disinfecting, and Sterilizing the Probe​​</h2>
+                    <p class="font-bold mb-3">
+                        Cleaning​</p>
+
+                    <p class="mb-3">Cleaning is an important procedure that is carried out before disinfecting the
+                        probe. The probe
+                        must be cleaned after each use.​ <br>
+
+                        <strong class="text-error">CAUTION: ​</strong><br>
+
+                        Do not use a surgical brush when cleaning probes. The use of even soft brushes can damage the
+                        probe.​
+                    </p>
+
+                    <p class="mb-3"> During cleaning and disinfection, keep the parts of the probe that must remain
+                        dry higher than
+                        the other parts during wetting until all parts are dry. This will help prevent liquid from
+                        entering non-liquid-tight areas of the probe.
+                    </p>
+                    <ol class="mb-4 list-decimal">
+                        <li>Disconnect the probe from the system.</li>
+                        <li>Remove any biopsy adapters or biopsy needle guides. (Biopsy adapters are re-usable and can
+                            be disinfected).</li>
+                        <li>Discard sheaths. (Sheaths are single-use items).</li>
+                        <li>Use a soft cloth lightly dampened with mild soap or compatible cleaning solution to remove
+                            any particulate matter and body fluid that remain on the probe or cable.</li>
+                        <li>To remove remaining particulates, rinse with water up to the immersion point.</li>
+                        <li>Wipe with a dry cloth.</li>
+                        <li>If necessary, wipe first with a water-dampened cloth to remove soap residue.</li>
+                    </ol>
+                    <img src="/img/87)slide 77.png" alt="" class="w-full max-w-5xl mx-auto">
+
+                    <small>For more infomation and details, click this file​</small>
+
+                    <p><strong class="text-error">WARNING</strong></p>
+                    <ul>
+                        <li>If a pre-mixed solution is used, be sure to observe the solution expiration date.</li>
+                        <li>The type of tissue it will contact during use dictates the level of disinfection required
+                            for a device. Ensure that the solution strength and duration of contact are appropriate for
+                            disinfection.</li>
+                    </ul>
+
+                    <p><strong class="text-error">CAUTION</strong></p>
+                    <ul class="list-disc">
+                        <li>Using a non-recommended disinfectant or not following the recommended disinfection method
+                            can damage and or discolor the probe and will void the probe warranty.</li>
+                        <li>Do not immerse probes for longer than one hour, unless they are sterilizable. Only sterilize
+                            probes using liquid solutions. Avoid using autoclave, gas (EtO) or other
+                            non-MEDISON-approved methods.</li>
+                    </ul>
+
+                    <ol class="list-decimal">
+                        <li>Follow the instructions on the disinfectant label for storage, use, and disposition of the
+                            disinfectant.</li>
+                        <li>Mix the disinfectant compatible with your probe according to label instructions for solution
+                            strength.</li>
+                        <li>Immerse the instructions on the disinfectant, rinse the probe after the immersion process is
+                            complete.</li>
+                        <li>Using the instructions on the disinfectant, rinse the probe after the immersion process is
+                            complete.</li>
+                        <li>Air dry the probe or towel it dry with a clean cloth.</li>
+                    </ol>
+
+                    <img src="/img/88)slide 78.png" alt="" class="w-full max-w-5xl mx-auto">
+
+
+
+                </div>
+
+                <div class="my-4">
+                    <h2 class="text-xl mb-4">Ultrasound Probe Movements and Manipulation from picos 101 ​​​</h2>
+
+                    <img src="/img/89)slide 79 cardinal transducer manipulation.png" alt=""
+                        class="w-full max-w-5xl mx-auto">
+
+                    <div class="card card-side rounded-none">
+                        <figure><img src="/img/90)slide 79 sliding.png" alt="Probe" />
+                        </figure>
+                        <div class="card-body">
+                            <p>1) Sliding is the process of moving the entire probe in one direction to find a better
+                                imaging window. This is typically used to locate the best window, to move to various
+                                regions of the human body, or to adhere to a specific structure (such as a vessel).​</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card card-side rounded-none">
+                        <figure><img src="/img/91)slide 79 tilting.png" alt="Probe" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">TILTING (FANNING) the Ultrasound Probe​</h2>
+                            <p>2) Tilting the ultrasound probe entails moving the transducer from side to side along the
+                                probe's short axis. It is also known as "Fanning" informally. Tilting will allow you to
+                                see multiple cross-sectional images of an object of interest. This technique can be used
+                                on structures such as the heart, kidney, bladder, vessels, and so on.​​</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card card-side rounded-none">
+                        <figure><img src="/img/92)slide 80 rotating.png" alt="Probe" />
+                        </figure>
+                        <div class="card-body">
+                            <p>3) Rotating the ultrasound probe is rotated by turning the transducer clockwise or
+                                anticlockwise along its central axis. The most common application of rotation is to
+                                switch between the long and short axis of a specific structure, such as a vessel, the
+                                heart, or the kidney.​​</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card card-side rounded-none">
+                        <figure><img src="/img/93)slide 80 rocking.png" alt="Probe" />
+                        </figure>
+                        <div class="card-body">
+                            <p>4. Rocking the ultrasound probe entails "rocking" the ultrasound probe along the long
+                                axis towards or away from the probe indicator.​
+
+                                You can help centre the area of interest by rocking. Because the image remains in-plane
+                                throughout the manipulation, this is also known as "in-plane" motion.​​​</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card card-side rounded-none">
+                        <figure>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">COMPRESSION with the Ultrasound Probe​​</h2>
+                            <p>5. Compression with an ultrasound probe entails applying downward pressure to the probe
+                                in order to assess the compressibility of a structure or organ of interest. The most
+                                common applications are to screen for deep vein thrombosis, distinguish between artery
+                                and vein, and screen for appendicitis (non-compressible).​​​</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
 
 
             </section>

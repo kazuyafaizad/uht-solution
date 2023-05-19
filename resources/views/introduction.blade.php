@@ -12,7 +12,7 @@
             height: 35rem;
         }
     </style>
-    <div class="flex h-[calc(100vh-9rem)]" data-aos="fade-up">
+    <div class="flex h-[calc(100vh-7.5rem)]" data-aos="fade-up">
         <div class="w-64 sticky top-0 h-full bg-gray-100">
             <ul class="menu bg-base-100 w-full">
                 <li><a class="active" href="#general-feature-and-advantages">General Feature and Advantages</a></li>
