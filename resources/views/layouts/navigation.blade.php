@@ -1,4 +1,4 @@
-<div class="navbar bg-primary text-primary-content">
+<div class="navbar">
     <div class="navbar-start">
         <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -11,7 +11,7 @@
                 <li><a href="/about">About</a></li>
                 <li tabindex="0">
                     <a class="justify-between">
-                        {{ Auth::user()->name }}
+                        {{ Auth::check() ? Auth::user()->name : '' }}
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24">
                             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -35,22 +35,14 @@
 
             </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xs" href="/">Ultrasound<br>Healthcare<br>Training
-            Solution</a>
+        <x-application-logo />
     </div>
     <div class="navbar-end hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
-            <li><a href="{{ url('/about') }}">About</a></li>
-            <li><a href="{{ url('/dashboard') }}">Dashboard</a></li>
-            <li tabindex="0">
-                <a>
-                    {{ Auth::user()->name }}
-                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                        viewBox="0 0 24 24">
-                        <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                    </svg>
-                </a>
-                <ul class="p-2 bg-base-200">
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="{{ url('/about') }}">About</a></li>
+                @auth
+                    <li><a href="{{ url('/dashboard') }}">Dashboard</a></li>
                     <li>
                         <!-- Authentication -->
                         <form method="POST" action="{{ route('logout') }}">
@@ -63,8 +55,14 @@
                             </a>
                         </form>
                     </li>
-                </ul>
-            </li>
-        </ul>
+                @else
+                    <li><a href="{{ route('login') }}">Login</a></li>
+                    @if (Route::has('register'))
+                        <li><a href="{{ route('register') }}" class="btn btn-primary text-primary-content">Register</a></li>
+                    @endif
+
+                @endauth
+            </ul>
+        </div>
     </div>
 </div>
