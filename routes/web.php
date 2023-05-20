@@ -40,6 +40,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/sonoace-r7', function () {
         return view('sonoace-r7');
     });
+
+    Route::get('/technical-part', function () {
+        return view('technical-part');
+    });
 });
 
 require __DIR__ . '/auth.php';

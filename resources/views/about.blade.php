@@ -1,4 +1,4 @@
-<x-master-layout>
+<x-app-layout>
     <div class="py-10">
         <h1 class="uppercase text-2xl">About</h1>
         <ul>
@@ -18,4 +18,4 @@
             </li>
         </ul>
     </div>
-</x-master-layout>
+</x-app-layout>

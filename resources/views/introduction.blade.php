@@ -24,9 +24,9 @@
                 {{-- <li><a href="#overview">Overview of Ultrasound SonoAce R7</a></li> --}}
             </ul>
         </div>
-        <div id="main-section" class="flex-1 overflow-y-auto p-4">
-            <section id="general-feature-and-advantages">
-                <h1 class="uppercase text-2xl mb-5">General Feature and Advantages</h1>
+        <div id="main-section" class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
+            <section id="general-feature-and-advantages" class="p-10">
+                <h1 class="uppercase text-2xl mb-5 text-primary">General Feature and Advantages</h1>
                 <ul class="list-disc list-inside">
                     <li>
                         High-end Digital Beam forming : The SonoAceR7 utilizes the newly developed Digital Beam forming
@@ -60,8 +60,8 @@
                         easily connected to the SonoAceR7.</li>
                 </ul>
             </section>
-            <section class="py-10" id="classification">
-                <h1 class="uppercase text-2xl  mb-5">CLASSIFICATION</h1>
+            <section class="p-10" id="classification">
+                <h1 class="uppercase text-2xl  mb-5 text-primary">CLASSIFICATION</h1>
                 <ul class="list-disc list-inside">
                     <li>
                         Type of protection against electrical shock: Class I​
@@ -77,8 +77,8 @@
 
                 </ul>
             </section>
-            <section class="py-10" id="specification">
-                <h1 class="uppercase text-2xl">Specification</h1>
+            <section class="p-10" id="specification">
+                <h1 class="uppercase text-2xl mb-5 text-primary">Specification</h1>
                 <ul>
                     <li class="py-3">
                         <img class="w-1/2 mx-auto" src="/img/1)slide specification 1.png">
@@ -131,8 +131,8 @@
 
                 </ul>
             </section>
-            <section class="py-10" id="configuration">
-                <h1 class="uppercase text-2xl">configuration</h1>
+            <section class="p-10" id="configuration">
+                <h1 class="uppercase text-2xl mb-5 text-primary">configuration</h1>
                 <div class="flex mt-3">
                     <div>
                         <ul>
@@ -358,9 +358,9 @@
                     </div>
                 </div>
             </section>
-            <section class="py-10" id="service-button">
-                <h1 class="uppercase text-2xl my-4">List of Service Button</h1>
-                <div class="grid md:grid-cols-4 gap-2 my-4">
+            <section class="p-10" id="service-button">
+                <h1 class="uppercase text-2xl  mb-5 text-primary">List of Service Button</h1>
+                <div class="grid md:grid-cols-4 gap-2 mb-4">
                     <div class="text-center  transform transition duration-500 hover:scale-110">
                         <img class="mx-auto" src="/img/20__slide_21_..handle_cap-removebg-preview.png"
                             alt="">
@@ -509,13 +509,13 @@
                     </div>
                 </div>
             </section>
-            <section class="py-10" id="diagnosis-mode">
-                <h1 class="uppercase text-2xl my-4">Diagnosis Mode</h1>
-                <h2 class="text-xl">1. Basic Mode</h2>
+            <section class="p-10" id="diagnosis-mode">
+                <h1 class="uppercase text-2xl  mb-5 text-primary">Diagnosis Mode</h1>
+                <h2 class="text-xl text-secondary">1. Basic Mode</h2>
 
                 <div class="my-3">
                     <h3>2D Mode​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
                         <p>This basic mode, also referred to as B Mode (Brightness mode), provides scan planes of
                             organs. This is used to display two-dimensional anatomy images in the direction of scanning
                             in real time.​</p>
@@ -524,7 +524,7 @@
                 </div>
                 <div class="my-3">
                     <h3>M Mode​​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
 
                         <ul class="list-disc list-inside">
                             <li>
@@ -540,7 +540,7 @@
                 </div>
                 <div class="my-3">
                     <h3>Color Doppler Mode​​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
 
                         <ul class="list-disc list-inside">
                             <li>
@@ -556,7 +556,7 @@
                 </div>
                 <div class="my-3">
                     <h3>Power Doppler Mode​​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
 
                         <ul class="list-disc list-inside">
                             <li>This mode displays the color intensity of blood flow within the ROI in the 2D image.
@@ -570,7 +570,7 @@
                 </div>
                 <div class="my-3">
                     <h3>PW Spectral Doppler Mode​​​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
                         <ul class="list-disc list-inside">
                             <li>PW stands for Pulse Wave. PW Spectral Doppler Mode gives information on the speed of
                                 blood flow at a specific site in the form of a spectral trace and audio signal. Distance
@@ -585,7 +585,7 @@
                 </div>
                 <div class="my-3">
                     <h3>CW Spectral Doppler Mode​​​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
                         <ul class="list-disc list-inside">
                             <li>CW stands for Continuous Wave. PW Spectral Doppler Mode gives information on the
                                 speed/direction of blood flow at a specific site in the form of a spectral trace and
@@ -600,7 +600,7 @@
                 </div>
                 <div class="my-3">
                     <h3>TDI Mode ​​​​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
                         <ul class="list-disc list-inside">
                             <li>TDI stands for Tissue Doppler Imaging. It represents movements of tissues such as a
                                 heart.</li>
@@ -614,7 +614,7 @@
                 <div class="my-3">
                     <h3>TDW Mode ​
                         ​​​​​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
                         <ul class="list-disc list-inside">
                             <li>TDW stands for Tissue Doppler Wave. It represents movements of tissues such as a heart.
                             </li>
@@ -624,10 +624,10 @@
                         <img src="/img/55)slide 32 TDW Mode.png" alt="">
                     </div>
                 </div>
-                <h2 class="uppercase text-xl my-4">2. MULTI-IMAGE MODE​</h2>
+                <h2 class="uppercase text-xl my-4 text-secondary">2. MULTI-IMAGE MODE​</h2>
                 <div class="my-3">
                     <h3>Dual Mode​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
                         <ul class="list-disc list-inside">
                             <li>Compare two different images at the same time. Each time press the Dual button, one of
                                 the two images is selected. The current active image mode is displayed as a yellow line
@@ -641,7 +641,7 @@
                 </div>
                 <div class="my-3">
                     <h3>Quad Mode​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
                         <ul class="list-disc list-inside">
                             <li>Compare four different images at the same time. Each time press the ESC key, one of the
                                 four images is selected. The current active image mode is displayed as a yellow line at
@@ -651,10 +651,10 @@
                         <img src="/img/57)slide 35 Quad Mode.png" alt="">
                     </div>
                 </div>
-                <h2 class="uppercase text-xl my-4">3. 3D / 4D MODE​​</h2>
+                <h2 class="uppercase text-xl my-4 text-secondary">3. 3D / 4D MODE​​</h2>
                 <div class="my-3">
                     <h3>Quad Mode​</h3>
-                    <div class="grid md:grid-cols-2">
+                    <div class="grid md:grid-cols-2 gap-3">
                         <ul class="list-disc list-inside">
                             <li>3D Mode​<br>
                                 In this mode, 3D or standard probes are used to obtain 3D images.
@@ -700,7 +700,6 @@
             const sections = document.querySelectorAll('#main-section section');
 
             const observer = new IntersectionObserver(entries => {
-                console.log(entries)
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         const sectionId = entry.target.getAttribute('id');
@@ -711,7 +710,7 @@
                     }
                 });
             }, {
-                rootMargin: "-30px",
+                rootMargin: "-200px 0px -700px 0px",
                 threshold: 0,
             });
 

@@ -1,4 +1,4 @@
-<div class="navbar">
+<div class="navbar sticky top-0 container max-w-7xl mx-auto bg-base-100 z-10">
     <div class="navbar-start">
         <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -8,7 +8,7 @@
                 </svg>
             </label>
             <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a href="/about">About</a></li>
+                <li><a href="/#about">About</a></li>
                 <li tabindex="0">
                     <a class="justify-between">
                         {{ Auth::check() ? Auth::user()->name : '' }}
@@ -40,9 +40,9 @@
     <div class="navbar-end hidden lg:flex">
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1">
-                <li><a href="{{ url('/about') }}">About</a></li>
+                <li><a href="/#about" >About</a></li>
                 @auth
-                    <li><a href="{{ url('/dashboard') }}">Dashboard</a></li>
+                    <li><a href="{{ url('/dashboard') }}" class="btn-primary text-primary-content">Dashboard</a></li>
                     <li>
                         <!-- Authentication -->
                         <form method="POST" action="{{ route('logout') }}">

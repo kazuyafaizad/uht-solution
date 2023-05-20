@@ -12,9 +12,9 @@
                 <li><a href="#probe">Probe</a></li>
             </ul>
         </div>
-        <div id="main-section" class="flex-1 overflow-y-auto p-4">
+        <div id="main-section" class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
             <section class="p-10" id="block-diagram">
-                <h1 class="text-2xl">BLOCK DIAGRAM</h1>
+                <h1 class="text-2xl mb-5 text-primary">BLOCK DIAGRAM</h1>
                 <img src="/img/59) slide 38 block diagram.png" alt="" class="mx-auto">
                 <p>SONOACER7 consists of the following major components.​</p>
 
@@ -38,7 +38,7 @@
                     User Interface Part refers to the LCD monitor and control panel​</p>
             </section>
             <section class="p-10" id="phantom">
-                <h1 class="text-2xl">PHANTOM CIRS ( General Purpose Multi-Tissue Ultrasound Phantom)​</h1>
+                <h1 class="text-2xl mb-5 text-primary">PHANTOM CIRS ( General Purpose Multi-Tissue Ultrasound Phantom)​</h1>
                 <h2 class="my-4">Introduction ​</h2>
 
                 <ul class=" my-3">
@@ -630,7 +630,7 @@
 
             </section>
             <section class="p-10" id="probe">
-                <h1 class="text-2xl mb-4">PROBE</h1>
+                <h1 class="text-2xl mb-5 text-primary">PROBE</h1>
                 <p>The probe is a device that sends and receives ultrasound for acquiring image data. It is also called
                     a Transducer or Scanhead.​</p>
 
@@ -780,7 +780,7 @@
 
                     <p class="mb-3">Cleaning is an important procedure that is carried out before disinfecting the
                         probe. The probe
-                        must be cleaned after each use.​ <br>
+                        must be cleaned after each use.​ <br><br>
 
                         <strong class="text-error">CAUTION: ​</strong><br>
 
@@ -814,7 +814,7 @@
                         <li>The type of tissue it will contact during use dictates the level of disinfection required
                             for a device. Ensure that the solution strength and duration of contact are appropriate for
                             disinfection.</li>
-                    </ul>
+                    </ul><br>
 
                     <p><strong class="text-error">CAUTION</strong></p>
                     <ul class="list-disc">
@@ -961,7 +961,7 @@
                     }
                 });
             }, {
-                rootMargin: "-30px",
+                rootMargin: "-200px 0px -700px 0px",
                 threshold: 0,
             });
 
