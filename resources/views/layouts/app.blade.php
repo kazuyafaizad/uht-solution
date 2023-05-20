@@ -10,7 +10,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=adamina:400" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -25,11 +25,11 @@
 
         <!-- Page Heading -->
         @if (isset($header))
-            <header class="bg-base-200 shadow text-base-content">
+            {{-- <header class="bg-base-200 shadow text-base-content">
                 <div class="max-w-7xl mx-auto py-3 px-4 sm:px-6">
                     {{ $header }}
                 </div>
-            </header>
+            </header> --}}
         @endif
 
         <!-- Page Content -->
