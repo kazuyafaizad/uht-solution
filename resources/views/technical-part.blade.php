@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
     <div class="flex h-[calc(100vh-7.5rem)]" data-aos="fade-up">
-        <div class="w-64 sticky top-0 h-full bg-gray-100">
+        <div class="w-1/3 sticky top-0 h-full bg-base-200">
             <ul class="menu bg-base-100 w-full">
                 <li><a class="active" href="#troubleshooting">Troubleshooting</a></li>
                 <li><a href="#maintenance">Maintenance</a></li>

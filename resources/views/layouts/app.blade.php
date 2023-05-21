@@ -10,7 +10,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=adamina:400" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=adamina:400|alata:400" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -22,13 +22,13 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased">
-    <div class="min-h-screen flex flex-col justify-between">
+<body class="font-sans antialiased leading-6">
+    <div class="min-h-screen flex flex-col justify-between overflow-hidden">
         @include('layouts.navigation')
 
         <!-- Page Heading -->
         @if (isset($header))
-            <header class="bg-base-200 shadow text-base-content">
+            <header class="bg-base-300  text-base-content">
                 <div class="max-w-7xl mx-auto py-3 px-4 sm:px-6">
                     {{ $header }}
                 </div>

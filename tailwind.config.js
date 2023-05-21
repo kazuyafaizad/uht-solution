@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Adamina', ...defaultTheme.fontFamily.sans],
+                sans: ['Alata', ...defaultTheme.fontFamily.sans],
             },
         },
     },
@@ -23,6 +23,8 @@ module.exports = {
                 "accent": "#48BCD1",
                 "neutral": "#C0DCEC",
                 "base-100": "#FFFFFF",
+                "base-200":"#f1f7f6",
+                "base-300":"#dbf6f1",
                 "info": "#3ABFF8",
                 "success": "#36D399",
                 "warning": "#FBBD23",

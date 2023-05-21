@@ -11,9 +11,18 @@
             width: 70%;
             height: 35rem;
         }
+
+        .footer {
+            display: none;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: black;
+        }
     </style>
     <div class="flex h-[calc(100vh-7.5rem)]" data-aos="fade-up">
-        <div class="w-64 sticky top-0 h-full bg-gray-100">
+        <div class="w-1/5 sticky top-0 h-full bg-base-200">
             <ul class="menu bg-base-100 w-full">
                 <li><a class="active" href="#general-feature-and-advantages">General Feature and Advantages</a></li>
                 <li><a href="#classification">Classification</a></li>
@@ -25,10 +34,10 @@
             </ul>
         </div>
         <div id="main-section"
-            class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
-            <section id="general-feature-and-advantages" class="p-10">
-                <h1 class="uppercase text-2xl mb-5 text-primary">General Feature and Advantages</h1>
-                <ul class="list-disc list-inside">
+            class="w-2/4 flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white ">
+            <section id="general-feature-and-advantages" class="px-10 pb-10">
+                <h1 class="uppercase text-3xl mb-5 text-primary">General Feature and Advantages</h1>
+                <ul class="list-disc leading-7 text-justify">
                     <li>
                         High-end Digital Beam forming : The SonoAceR7 utilizes the newly developed Digital Beam forming
                         technology.​
@@ -60,46 +69,46 @@
                         including VCRs and printers can be
                         easily connected to the SonoAceR7.</li>
                 </ul>
-                <p class="my-3 font-bold">Navigate through the 3D below</p>
-                <div class="sketchfab-embed-wrapper my-4 h-80"> <iframe class="w-full h-4/5" title="Printer Ultrasound"
-                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
-                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                <p class="mt-10 mb-4 font-bold text-center">Navigate through the 3D below</p>
+                <div class="sketchfab-embed-wrapper my-4 h-96 max-w-lg mx-auto"> <iframe class="w-full h-4/5"
+                        title="Printer Ultrasound" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                        webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                        xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
                         src="https://sketchfab.com/models/0c8fe556423142b3a1e866782aa747b2/embed"> </iframe>
                     <p> <a href="https://sketchfab.com/3d-models/printer-ultrasound-0c8fe556423142b3a1e866782aa747b2?utm_medium=embed&utm_campaign=share-popup&utm_content=0c8fe556423142b3a1e866782aa747b2"
-                            target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Printer
+                            target="_blank" rel="nofollow" class="text-primary text-center"> Printer
                             Ultrasound </p>
                 </div>
-                <div class="sketchfab-embed-wrapper my-4 h-80"> <iframe class="w-full h-4/5" title="Props"
-                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
-                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                <div class="sketchfab-embed-wrapper my-4  h-96 max-w-lg mx-auto"> <iframe class="w-full h-4/5"
+                        title="Props" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                        webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                        xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
                         src="https://sketchfab.com/models/f15de6c46aba470c8b7b04001e6982b4/embed"> </iframe>
                     <p> <a href="https://sketchfab.com/3d-models/props-f15de6c46aba470c8b7b04001e6982b4?utm_medium=embed&utm_campaign=share-popup&utm_content=f15de6c46aba470c8b7b04001e6982b4"
-                            target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Probes </a></p>
+                            target="_blank" rel="nofollow" class="text-primary text-center"> Probes </a></p>
                 </div>
-                <div class="sketchfab-embed-wrapper my-4 h-80"> <iframe class="w-full h-4/5" title="Body Ultrasound"
-                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
-                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                <div class="sketchfab-embed-wrapper my-4  h-96 max-w-lg mx-auto"> <iframe class="w-full h-4/5"
+                        title="Body Ultrasound" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                        webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                        xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
                         src="https://sketchfab.com/models/345045064273456a9d5f989b8f8eca40/embed"> </iframe>
                     <p> <a href="https://sketchfab.com/3d-models/body-ultrasound-345045064273456a9d5f989b8f8eca40?utm_medium=embed&utm_campaign=share-popup&utm_content=345045064273456a9d5f989b8f8eca40"
-                            target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Body Ultrasound
+                            target="_blank" rel="nofollow" class="text-primary text-center"> Body Ultrasound
                         </a> </p>
                 </div>
-                <div class="sketchfab-embed-wrapper my-4 h-80"> <iframe class="w-full h-4/5" title="Monitor Ultra Sound"
-                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
-                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                <div class="sketchfab-embed-wrapper my-4  h-96 max-w-lg mx-auto"> <iframe class="w-full h-4/5"
+                        title="Monitor Ultra Sound" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                        webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                        xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
                         src="https://sketchfab.com/models/8f6e799c929549208323e26a95de71a2/embed"> </iframe>
                     <p> <a href="https://sketchfab.com/3d-models/monitor-ultra-sound-8f6e799c929549208323e26a95de71a2?utm_medium=embed&utm_campaign=share-popup&utm_content=8f6e799c929549208323e26a95de71a2"
-                            target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Monitor Ultra
+                            target="_blank" rel="nofollow" class="text-primary text-center"> Monitor Ultra
                             Sound </a> </p>
                 </div>
             </section>
-            <section class="p-10" id="classification">
-                <h1 class="uppercase text-2xl  mb-5 text-primary">CLASSIFICATION</h1>
-                <ul class="list-disc list-inside">
+            <section class="px-10 py-10 bg-base-200 " id="classification">
+                <h1 class="uppercase text-3xl  mb-5 text-primary">CLASSIFICATION</h1>
+                <ul class="list-disc leading-7">
                     <li>
                         Type of protection against electrical shock: Class I​
                     </li>
@@ -114,184 +123,166 @@
 
                 </ul>
             </section>
-            <section class="p-10" id="specification">
-                <h1 class="uppercase text-2xl mb-5 text-primary">Specification</h1>
+            <section class="px-10 py-10" id="specification">
+                <h1 class="uppercase text-3xl mb-5 text-primary">Specification</h1>
                 <ul>
-                    <li class="py-3">
-                        <img class="w-1/2 mx-auto" src="/img/1)slide specification 1.png">
+                    <li>
+                        <a href="/img/1)slide specification 1.png" data-fslightbox="specification">
+                            <img class="w-full max-w-xl mx-auto" src="/img/1)slide specification 1.png">
+                        </a>
                     </li>
-                    <li class="py-3">
-                        <img class="w-1/2 mx-auto" src="/img/2) slide specification 2.png">
+                    <li>
+                        <a href="/img/2)slide specification 2.png" data-fslightbox="specification">
+                            <img class="w-full max-w-xl mx-auto" src="/img/2) slide specification 2.png">
+                        </a>
                     </li>
-                    <li class="py-3"><img class="w-1/2 mx-auto" src="/img/3)slide specification 3.png">​</li>
-                    <li class="py-3"><img class="w-1/2 mx-auto" src="/img/4)slide specification 4.png">​​</li>
-                    <li class="py-3"> <img class="w-1/2 mx-auto" src="/img/5)slide specification 5.png">​</li>
-                    <li class="py-3">
-                        <div>
-                            <h4 class="text-xl mb-4">The SONOACE R7 Diagnostic Ultrasound System and transducers are
-                                intended
-                                for diagnostic
-                                ultrasound ​
-                                imaging and fluid analysis of the human body.</h4>
-                            <p class="my-4">Principles of Operation​</p>
-
-                            <p> Medical ultrasound images are created by computer and digital memory from the
-                                transmission ​
-
-                                and reception of mechanical high-frequency waves applied through a probe. The mechanical
-                                ​
-
-                                ultrasound waves spread through the body, producing an echo where density changes occur.
-                                ​
-
-                                For example, in the case of tissue, an echo is created where a signal passes from an
-                                adipose tissue ​
-
-                                region to a muscular tissue region. The echoes return to the probe where they are
-                                converted back ​
-
-                                into electrical signals.​
-
-                                These echo signalsare highly amplified and processed by analog and digital circuits
-                                having filters ​
-
-                                with many frequency and time response options, transforming the high-frequency
-                                electrical signals ​
-
-                                into a series of digital image signals which are stored in memory. Once in memory, the
-                                image can ​
-
-                                be displayed in real-time on the image monitor. All signal transmission, reception and
-                                processing ​
-
-                                characteristics are controlled by computer.​ </p>
+                    <li><a href="/img/3)slide specification 3.png" data-fslightbox="specification">
+                            <img class="w-full max-w-xl mx-auto" src="/img/3)slide specification 3.png"></a>​</li>
+                    <li><a href="/img/4)slide specification 4.png" data-fslightbox="specification"><img
+                                class="w-full max-w-xl mx-auto" src="/img/4)slide specification 4.png"></a>​​</li>
+                    <li><a href="/img/5)slide specification 5.png" data-fslightbox="specification"><img
+                                class="w-full max-w-xl mx-auto" src="/img/5)slide specification 5.png">​</a></li>
 
                 </ul>
+                <div class="mt-10">
+                    <h4 class="text-2xl mb-5">The SONOACE R7 Diagnostic Ultrasound System and transducers are
+                        intended
+                        for diagnostic
+                        ultrasound ​
+                        imaging and fluid analysis of the human body.</h4>
+                    <p class="mb-4 font-bold">Principles of Operation​</p>
+
+                    <p class="text-justify"> Medical ultrasound images are created by computer and digital memory from
+                        the
+                        transmission ​
+
+                        and reception of mechanical high-frequency waves applied through a probe. The mechanical
+                        ​
+
+                        ultrasound waves spread through the body, producing an echo where density changes occur.
+                        ​
+
+                        For example, in the case of tissue, an echo is created where a signal passes from an
+                        adipose tissue ​
+
+                        region to a muscular tissue region. The echoes return to the probe where they are
+                        converted back ​
+
+                        into electrical signals.​
+
+                        These echo signalsare highly amplified and processed by analog and digital circuits
+                        having filters ​
+
+                        with many frequency and time response options, transforming the high-frequency
+                        electrical signals ​
+
+                        into a series of digital image signals which are stored in memory. Once in memory, the
+                        image can ​
+
+                        be displayed in real-time on the image monitor. All signal transmission, reception and
+                        processing ​
+
+                        characteristics are controlled by computer.​ </p>
             </section>
-            <section class="p-10" id="configuration">
-                <h1 class="uppercase text-2xl mb-5 text-primary">configuration</h1>
-                <div class="flex mt-3">
-                    <div>
-                        <ul>
-                            <li class="py-3">
-                                Ultrasound SonoAce R7 consists of the monitor, the control panel, the console and, the
-                                probes.
-                            </li>
-                        </ul>
-                        <p class="font-bold mt-3">Console</p>
-                        <ul>
-                            <li class="py-1">
-                                The console consists of two parts – the inner unit and the outer unit.
-                            </li>
-                            <li class="py-1">The interior of the console mainly contains devices that produce
-                                ultrasound
-                                images.​</li>
-                            <li class="py-1">The outside of the console consists of various connection ports, probe
-                                holder,
-                                storage space, wheel and handles.​​</li>
-
-
-                        </ul>
-                    </div>
-                    <div>
-                        <img src="/img/with-label.png" alt="">
-                    </div>
+            <section class="px-10 py-10 bg-base-200" id="configuration">
+                <h1 class="uppercase text-3xl mb-5 text-primary">configuration</h1>
+                <div>
+                    <p>
+                        Ultrasound SonoAce R7 consists of the monitor, the control panel, the console and, the
+                        probes.
+                    </p>
+                    <p class="font-bold mt-3">Console</p>
+                    <ul class="list-disc leading-7">
+                        <li>
+                            The console consists of two parts – the inner unit and the outer unit.
+                        </li>
+                        <li>The interior of the console mainly contains devices that produce
+                            ultrasound
+                            images.​</li>
+                        <li>The outside of the console consists of various connection ports, probe
+                            holder,
+                            storage space, wheel and handles.​​</li>
+                    </ul>
                 </div>
-                <div class="grid md:grid-cols-4">
+                <div class="mt-12">
+                    <img src="/img/with-label.png" alt="" class="w-full max-w-xl mx-auto">
+                </div>
+                <p class="my-4 text-xl">2D Image of Ultrasound SonoAce R7 </p>
+                <div class="grid md:grid-cols-4 bg-base-100 rounded">
 
                     <img src="/img/7)slide no 11  body ultrasound 1.png" alt="">
-                    <p>① Monitor​ <br>
-
+                    <p class="ml-4">① Monitor​ <br>
                         ② Monitor Hinge​<br>
-
                         ③ Speaker​<br>
-
                         ④ Keyboard & Control Panel​<br>
-
                         ⑤ Probe Holder​<br>
-
                         ⑥ Handle ​<br>
-
                         ⑦ Cable Hook ​<br>
-
                         ⑧ Lift ​<br>
-
                         ⑨ DVD Drive ​<br>
-
                         ⑩ Probe Port​<br>
-
                         ⑪ Wheel​</p>
 
                     <img src="img/8)slide no 11  body ultrasound 2.png" alt="">
-                    <p>
+                    <p class="ml-4">
                         ① Handle (Optional)​<br>​
-
                         ② Storage Space​​<br>
-
                         ③ Ventilation​​<br>
-
                         ④ Rear Panel​​<br>
-
                         ⑤ Cable Hook​​<br>
-
                         ⑥ Power Connection Part​</p>
                 </div>
-                <div class="mt-5">
-                    <h3 class="text-xl">LCD MONITOR​</h3>
-                    <div class="flex flex-col justify-center items-center py-3">
-                        <p class="mt-3">The monitor of this system is a color VGA monitor, which displays ultrasound
-                            images and
-                            additional information. Monitor arm can control to be tilted to the optimal viewing angle.
-                        </p>
-                        <img class="w-1/3" src="img/9__slide_12_monitor-removebg-preview.png">
-                    </div>
-                    <div>
-                        <h4 class="font-bold my-4">Monitor Display</h4>
-                        <p>The monitor displays ultrasound images, operation menus and a variety of other information.
-                            As shown in the figure below, the screen contains: ① Title Area, ② Menu, ③ Image Area, ④
-                            Thumbnail Area, ⑤ User Information Area, ⑥ Soft Menu.</p>
+                <div class="mt-12">
+                    <h3 class="text-xl mb-4">LCD MONITOR​</h3>
+                    <p>The monitor of this system is a color VGA monitor, which displays ultrasound
+                        images and
+                        additional information. Monitor arm can control to be tilted to the optimal viewing angle.
+                    </p>
+                    <img class="w-full max-w-xs mx-auto my-5" src="img/9__slide_12_monitor-removebg-preview.png">
+                    <h4 class="font-bold mb-4">Monitor Display</h4>
+                    <p>The monitor displays ultrasound images, operation menus and a variety of other information.
+                        As shown in the figure below, the screen contains: ① Title Area, ② Menu, ③ Image Area, ④
+                        Thumbnail Area, ⑤ User Information Area, ⑥ Soft Menu.</p>
 
-                    </div>
                     <div class="mt-4 grid md:grid-cols-2 gap-4 justify-content-center items-center">
-                        <img src="img/10)slide 14 monitor.png" alt="">
-                        <div class="ml-3">
-                            <ol class="list-decimal">
-                                <li class="py-2">Title Area​<br>
+                        <a href="img/10)slide 14 monitor.png" data-fslightbox="config"><img
+                                src="img/10)slide 14 monitor.png" alt="" class="w-full max-w-xl mx-auto"></a>
+                        <ol class="list-decimal leading-7 rounded bg-base-100 list-inside p-2">
+                            <li><strong>Title Area</strong>​<br>
 
-                                    The title area displays the patient name, hospital name, application, frame rate and
-                                    depth, probe information, acoustic output information, and the date and time.​
-                                </li>
-                                <li class="py-2">Menu​<br>
+                                The title area displays the patient name, hospital name, application, frame rate and
+                                depth, probe information, acoustic output information, and the date and time.​
+                            </li>
+                            <li><strong>Menu</strong>​<br>
 
-                                    This displays the utility menu or measurement menu.​</li>
+                                This displays the utility menu or measurement menu.​</li>
 
-                                <li class="py-2">Image Area​<br>
+                            <li><strong>Image Area​</strong><br>
 
-                                    The ultrasound image, image information, annotation, and measurement are displayed
-                                    in the image area.​</li>
+                                The ultrasound image, image information, annotation, and measurement are displayed
+                                in the image area.​</li>
 
-                                <li class="py-2">Thumbnails Area​<br>
+                            <li><strong>Thumbnails Area​</strong><br>
 
-                                    When clicking on the Save button, the saved images are displayed. If you place the
-                                    pointer on an image and click, the image is magnified. Up to 7 images are
-                                    displayed.​
-                                </li>
-                                <li class="py-2">User Information Area​<br>
+                                When clicking on the Save button, the saved images are displayed. If you place the
+                                pointer on an image and click, the image is magnified. Up to 7 images are
+                                displayed.​
+                            </li>
+                            <li><strong>User Information Area​</strong><br>
 
-                                    User information area provides a variety of information necessary for system use
-                                    e.g. current system status, image information, available items, bodymarkers, and so
-                                    on.​
+                                User information area provides a variety of information necessary for system use
+                                e.g. current system status, image information, available items, bodymarkers, and so
+                                on.​
 
-                                    ​</li>
-                            </ol>
-                        </div>
+                                ​</li>
+                        </ol>
                     </div>
                 </div>
-                <div class="mt-5">
-                    <h3 class="text-xl">CONTROL PANEL​</h3>
-                    <div class="flex flex-col py-3">
-                        <p class="mt-3">The control panel consists of a keyboard, buttons, dial-buttons, a switch, a
-                            slide, and a trackball.​<br>
+                <div class="mt-12">
+                    <h3 class="text-xl mb-4">CONTROL PANEL​</h3>
+                    <div class="flex flex-col">
+                        <p class="mb-4">The control panel consists of a keyboard, buttons, dial-buttons, a switch, a
+                            slide, and a trackball.​
                             The dial-button can be used both as a dial and a button.​
                         </p>
                         <!-- Slider main container -->
@@ -299,15 +290,14 @@
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                <div class="swiper-slide "><img class="w-3/4 mx-auto"
+                                <div class="swiper-slide "><img class="w-full max-w-xl mx-auto"
                                         src="/img/11)slide control panel 1.png">
                                 </div>
-                                <div class="swiper-slide "><img class="w-3/4 mx-auto"
+                                <div class="swiper-slide "><img class="w-full max-w-xl mx-auto"
                                         src="/img/12)slide control panel 2.png">
                                 </div>
-                                <div class="swiper-slide "><img class="w-3/4 mx-auto"
+                                <div class="swiper-slide "><img class="w-full max-w-xl mx-auto"
                                         src="/img/13)slide control panel 3.png"></div>
-                                ...
                             </div>
                             <!-- If we need pagination -->
                             <div class="swiper-pagination"></div>
@@ -321,63 +311,56 @@
                         </div>
 
                     </div>
-                    <div class="my-4">
+                    <div class="mt-12">
                         <h3 class="text-xl mb-4">CONTROL PANEL MAP​</h3>
-                        <img src="/img/14)slide 16 control panel map.png" class="w-3/5 mx-auto" alt="">
-                        <img src="/img/15) slide 17 control panel map.png" class="w-3/5 mx-auto" alt="">
+                        <img src="/img/14)slide 16 control panel map.png" class="w-full max-w-xl mx-auto"
+                            alt="">
+                        <img src="/img/15) slide 17 control panel map.png" class="w-full max-w-xl mx-auto"
+                            alt="">
                     </div>
-                    <div class="my-4">
+                    <div class="mt-12">
                         <h3 class="text-xl mb-4">CONTROL PANEL​ KEYBOARD</h3>
-                        <img src="/img/16)slide 18 control panel keyboard 1.png" class="mx-auto">
-                        <img src="/img/17)slide 18 control panel keyboard 2.png" class="mx-auto">
-                    </div>
-                    <div class="my-4">
-                        <h3 class="text-xl mb-4">CONSOLE</h3>
-                        <div class="grid md:grid-cols-2">
-                            <div>
-                                <p>The console consists of two parts – the inner unit and the outer unit. The interior
-                                    of the console mainly contains devices that produce ultrasound images. On the
-                                    exterior of the console are various connectors, probe holders, storage compartments,
-                                    handles, wheels, etc​</p>
-                                <p class="my-4"><span>Rear Panel​</span><br>
-
-                                    A monitor and other peripheral devices like printer, VCR, etc. are connected via the
-                                    rear panel at the back of the system.​</p>
-                            </div>
-                            <div class="flex gap-4">
-                                <img src="img/18)slide 19 rear panel picture.png">
-                                <p> ① MIC Port (Input): Connects the mic.​<br>
-
-                                    ② Remote Print Port (Output): Prints out remotely by connecting the Echo ​<br>
-
-                                    printer.​<br>
-
-                                    ③ B/W Printer Port (Output): Connects the Echo printer.​<br>
-
-                                    ④ Parallel Port (Output): Connects the printer and foot switch.​<br>
-                                    ⑤ DVI Port (Output): Outputs digital signals on the monitor.​<br>
-
-                                    ⑥ USB Port: Connects USB peripheral devices.​<br>
-
-                                    ⑦ Network Port: Connects to network. Patient information can be ​<br>
-
-                                    transferred to other servers through the DICOM network.​<br>
-
-                                    ⑧ S-VHS Port (Output): Connects S-VHS VCR.​<br>
-
-                                    ⑨ VHS Port (Output): Connects VHS VCR.​<br>
-
-                                    ⑩ Audio Port (Output): Used for outputting audio signals.​
-                                </p>
-                            </div>
+                        <div class="grid grid-cols-2 gap-2 items-center">
+                            <img src="/img/16)slide 18 control panel keyboard 1.png" class="w-5/6 mx-auto">
+                            <img src="/img/17)slide 18 control panel keyboard 2.png" class="w-full mx-auto">
                         </div>
                     </div>
-                    <div class="my-4">
-                        <div class="grid md:grid-cols-2">
+                    <div class="mt-12">
+                        <h3 class="text-xl mb-4">CONSOLE</h3>
+
+                        <p>The console consists of two parts – the inner unit and the outer unit. The interior
+                            of the console mainly contains devices that produce ultrasound images. On the
+                            exterior of the console are various connectors, probe holders, storage compartments,
+                            handles, wheels, etc​</p>
+                        <p class="my-4"><strong>Rear Panel​</strong><br>
+
+                            A monitor and other peripheral devices like printer, VCR, etc. are connected via the
+                            rear panel at the back of the system.​</p>
+                        <div class="flex gap-4 p-4 bg-base-100 rounded">
+                            <img src="img/18)slide 19 rear panel picture.png" class=" mx-auto">
+                            <p> ① MIC Port (Input): Connects the mic.​<br>
+                                ② Remote Print Port (Output): Prints out remotely by connecting the Echo ​<br>
+                                printer.​<br>
+                                ③ B/W Printer Port (Output): Connects the Echo printer.​<br>
+                                ④ Parallel Port (Output): Connects the printer and foot switch.​<br>
+                                ⑤ DVI Port (Output): Outputs digital signals on the monitor.​<br>
+                                ⑥ USB Port: Connects USB peripheral devices.​<br>
+                                ⑦ Network Port: Connects to network. Patient information can be ​<br>
+                                transferred to other servers through the DICOM network.​<br>
+                                ⑧ S-VHS Port (Output): Connects S-VHS VCR.​<br>
+                                ⑨ VHS Port (Output): Connects VHS VCR.​<br>
+                                ⑩ Audio Port (Output): Used for outputting audio signals.​
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-12">
+
+                        <h3 class="text-xl mb-4">CONSOLE​ Power Connection Part​</h3>
+                        <p class="mb-4">The power connection part is located at the back of the system body.​</p>
+                        <div class="grid md:grid-cols-2 gap-4 rounded bg-base-100 p-2">
                             <div>
-                                <h3 class="text-xl mb-4">CONSOLE​ Power Connection Part​</h3>
-                                <p>The power connection part is located at the back of the system body.​</p>
-                                <p>① Power Switch: Supplies or cuts power to the entire system.​<br>
+                                <p class="text-justify">① Power Switch: Supplies or cuts power to the entire
+                                    system.​<br>
 
                                     ② Power Inlet: Connects the power cable to an external power source.​<br>
 
@@ -390,13 +373,15 @@
 
                                     ⑤ Output rating change switch: Selects the output power.​</p>
                             </div>
-                            <img src="/img/19)slide power connection part.png" alt="">
+                            <div class="">
+                                <img src="/img/19)slide power connection part.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="p-10" id="service-button">
-                <h1 class="uppercase text-2xl  mb-5 text-primary">List of Service Button</h1>
+            <section class="px-10 py-10 " id="service-button">
+                <h1 class="uppercase text-3xl  mb-5 text-primary">List of Service Button</h1>
                 <div class="grid md:grid-cols-4 gap-2 mb-4">
                     <div class="text-center  transform transition duration-500 hover:scale-110">
                         <img class="mx-auto" src="/img/20__slide_21_..handle_cap-removebg-preview.png"
@@ -546,24 +531,26 @@
                     </div>
                 </div>
             </section>
-            <section class="p-10" id="diagnosis-mode">
-                <h1 class="uppercase text-2xl  mb-5 text-primary">Diagnosis Mode</h1>
+            <section class="px-10 py-10 bg-base-200" id="diagnosis-mode">
+                <h1 class="uppercase text-3xl  mb-5 text-primary">Diagnosis Mode</h1>
                 <h2 class="text-xl text-secondary">1. Basic Mode</h2>
 
                 <div class="my-3">
                     <h3>2D Mode​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
+                    <div class="grid md:grid-cols-1 gap-3">
                         <p>This basic mode, also referred to as B Mode (Brightness mode), provides scan planes of
                             organs. This is used to display two-dimensional anatomy images in the direction of scanning
                             in real time.​</p>
-                        <img src="/img/48)slide25.. 2D mode.png" alt="">
+                        <a href="/img/48)slide25.. 2D mode.png" data-fslightbox="diag"><img
+                                src="/img/48)slide25.. 2D mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div class="my-3">
                     <h3>M Mode​​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
+                    <div class="grid md:grid-cols-1 gap-3">
 
-                        <ul class="list-disc list-inside">
+                        <ul class="list-disc ">
                             <li>
                                 The M Mode is used to specify an observation area in a 2D image with the M Line, and
                                 display changes over time.​</li>
@@ -572,14 +559,16 @@
                                 an observation area within the entire image.​
                             </li>
                         </ul>
-                        <img src="/img/49)slide 26..M  mode.png" alt="">
+                        <a href="/img/49)slide 26..M  mode.png" data-fslightbox="diag"><img
+                                src="/img/49)slide 26..M  mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div class="my-3">
                     <h3>Color Doppler Mode​​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
+                    <div class="grid md:grid-cols-1 gap-3">
 
-                        <ul class="list-disc list-inside">
+                        <ul class="list-disc ">
                             <li>
                                 This mode displays the colored blood flow pattern of the ROI (Region of Interest) within
                                 the 2D image.​</li>
@@ -588,27 +577,31 @@
                                 ROI within the entire image.​
                             </li>
                         </ul>
-                        <img src="/img/50)slide 27.. Color doppler mode.png" alt="">
+                        <a href="/img/50)slide 27.. Color doppler mode.png" data-fslightbox="diag"><img
+                                src="/img/50)slide 27.. Color doppler mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div class="my-3">
                     <h3>Power Doppler Mode​​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
+                    <div class="grid md:grid-cols-1 gap-3">
 
-                        <ul class="list-disc list-inside">
+                        <ul class="list-disc ">
                             <li>This mode displays the color intensity of blood flow within the ROI in the 2D image.
                             </li>
                             <li>It is appropriate for examining the presence and amount of blood flow. The 2D Mode image
                                 is also shown, allowing the marking and adjustment of the ROI within the entire image.
                             </li>
                         </ul>
-                        <img src="/img/51)slide 28 Power Doppler Mode.png" alt="">
+                        <a href="/img/51)slide 28 Power Doppler Mode.png" data-fslightbox="diag"><img
+                                src="/img/51)slide 28 Power Doppler Mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div class="my-3">
                     <h3>PW Spectral Doppler Mode​​​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
-                        <ul class="list-disc list-inside">
+                    <div class="grid md:grid-cols-1 gap-3">
+                        <ul class="list-disc ">
                             <li>PW stands for Pulse Wave. PW Spectral Doppler Mode gives information on the speed of
                                 blood flow at a specific site in the form of a spectral trace and audio signal. Distance
                                 (depth) information can also be obtained by transmitting pulses over time frames. </li>
@@ -617,13 +610,15 @@
                                 of an observation area within the entire images.
                             </li>
                         </ul>
-                        <img src="/img/52)slide 29 PW Spectal Doppler Mode.png" alt="">
+                        <a href="/img/52)slide 29 PW Spectal Doppler Mode.png" data-fslightbox="diag"><img
+                                src="/img/52)slide 29 PW Spectal Doppler Mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div class="my-3">
                     <h3>CW Spectral Doppler Mode​​​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
-                        <ul class="list-disc list-inside">
+                    <div class="grid md:grid-cols-1 gap-3">
+                        <ul class="list-disc ">
                             <li>CW stands for Continuous Wave. PW Spectral Doppler Mode gives information on the
                                 speed/direction of blood flow at a specific site in the form of a spectral trace and
                                 audio signal. Unlike PW Spectral Doppler Mode, it does not provide Sample Volume.</li>
@@ -632,40 +627,46 @@
                             <li>The 2D Mode image is also shown, allowing the marking and adjustment of an observation
                                 area within the entire image.</li>
                         </ul>
-                        <img src="/img/53)CW Spectral Doppler Mode.png" alt="">
+                        <a href="/img/53)CW Spectral Doppler Mode.png" data-fslightbox="diag"><img
+                                src="/img/53)CW Spectral Doppler Mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div class="my-3">
                     <h3>TDI Mode ​​​​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
-                        <ul class="list-disc list-inside">
+                    <div class="grid md:grid-cols-1 gap-3">
+                        <ul class="list-disc ">
                             <li>TDI stands for Tissue Doppler Imaging. It represents movements of tissues such as a
                                 heart.</li>
                             <li>This function appears in the Soft Menu only when a Phased Array Probe is used for
                                 cardiac application.
                             </li>
                         </ul>
-                        <img src="/img/54)slide 31 TDI Mode.png" alt="">
+                        <a href="/img/54)slide 31 TDI Mode.png" data-fslightbox="diag"><img
+                                src="/img/54)slide 31 TDI Mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div class="my-3">
                     <h3>TDW Mode ​
                         ​​​​​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
-                        <ul class="list-disc list-inside">
+                    <div class="grid md:grid-cols-1 gap-3">
+                        <ul class="list-disc ">
                             <li>TDW stands for Tissue Doppler Wave. It represents movements of tissues such as a heart.
                             </li>
                             <li>TDW is available only when the cardiac application with a Phased Array probe is selected
                             </li>
                         </ul>
-                        <img src="/img/55)slide 32 TDW Mode.png" alt="">
+                        <a href="/img/55)slide 32 TDW Mode.png" data-fslightbox="diag"><img
+                                src="/img/55)slide 32 TDW Mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <h2 class="uppercase text-xl my-4 text-secondary">2. MULTI-IMAGE MODE​</h2>
                 <div class="my-3">
                     <h3>Dual Mode​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
-                        <ul class="list-disc list-inside">
+                    <div class="grid md:grid-cols-1 gap-3">
+                        <ul class="list-disc ">
                             <li>Compare two different images at the same time. Each time press the Dual button, one of
                                 the two images is selected. The current active image mode is displayed as a yellow line
                                 at the top.
@@ -673,26 +674,30 @@
                             <li>Button and menu items for the current image mode are displayed.
                             </li>
                         </ul>
-                        <img src="/img/56)slide 34 Dual Mode.png" alt="">
+                        <a href="/img/56)slide 34 Dual Mode.png" data-fslightbox="diag"><img
+                                src="/img/56)slide 34 Dual Mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div class="my-3">
                     <h3>Quad Mode​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
-                        <ul class="list-disc list-inside">
+                    <div class="grid md:grid-cols-1 gap-3">
+                        <ul class="list-disc ">
                             <li>Compare four different images at the same time. Each time press the ESC key, one of the
                                 four images is selected. The current active image mode is displayed as a yellow line at
                                 the top. The button controls and menus of the active image mode are used.​
                             </li>
                         </ul>
-                        <img src="/img/57)slide 35 Quad Mode.png" alt="">
+                        <a href="/img/7)slide 35 Quad Mode.png" data-fslightbox="diag"><img
+                                src="/img/57)slide 35 Quad Mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <h2 class="uppercase text-xl my-4 text-secondary">3. 3D / 4D MODE​​</h2>
                 <div class="my-3">
                     <h3>Quad Mode​</h3>
-                    <div class="grid md:grid-cols-2 gap-3">
-                        <ul class="list-disc list-inside">
+                    <div class="grid md:grid-cols-1 gap-3">
+                        <ul class="list-disc ">
                             <li>3D Mode​<br>
                                 In this mode, 3D or standard probes are used to obtain 3D images.
                             </li>
@@ -701,7 +706,9 @@
                                 Live 3D Mode​
                             </li>
                         </ul>
-                        <img src="/img/58)slide 36 3D 4D Mode.png" alt="">
+                        <a href="/img/58)slide 36 3D 4D Mode.png" data-fslightbox="diag"><img
+                                src="/img/58)slide 36 3D 4D Mode.png" alt=""
+                                class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
                 <div>
@@ -852,7 +859,7 @@
                     }
                 });
             }, {
-                rootMargin: "-200px 0px -700px 0px",
+                rootMargin: "-200px 0px -200px 0px",
                 threshold: 0,
             });
 

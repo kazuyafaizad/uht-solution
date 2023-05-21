@@ -24,19 +24,21 @@
             </div>
         </div>
     </div>
-    <div class="py-10 h-[calc(100vh-9rem)]" id="about">
-        <h1 class="uppercase text-2xl text-primary">About</h1>
+    <div class="p-10 max-w-xl mx-auto" id="about">
+        <h1 class="uppercase text-4xl text-primary text-center">About</h1>
         <ul>
             <li data-aos="fade-left" class="py-10">
-                <h3 class="text-xl mb-5 text-secondary">What Is An About Us Page?​</h3>
-                <h2>Ultrasound Healthcare Training Simulation is the application for the polytehcnic students
+                <h3 class=" mb-5 text-secondary text-2xl">What Is An About Us Page?​</h3>
+                <h2 class="text-xl">Ultrasound Healthcare Training Simulation is the application for the polytehcnic
+                    students
                     specificily for Biomedical Engineering Students to learn about the imaging machine that used for
                     diagnostic. This web application build to deliver standardize ultrasound machine’s knowledge as to
                     promotes the e-learning among students.</h2>
             </li>
             <li data-aos="fade-right" class="py-10">
-                <h3 class="text-xl mb-5 text-secondary">Why Are These Pages Important?</h3>
-                <h2>Ultrasound Healthcare simulation training web application is important for students as it provides a
+                <h3 class=" mb-5 text-secondary text-2xl">Why Are These Pages Important?</h3>
+                <h2 class="text-xl">Ultrasound Healthcare simulation training web application is important for students
+                    as it provides a
                     safe, realistic, cost-effective, engaging, and effective way for them to learn and improve their
                     skills, which ultimately leads to better patient care and outcomes.</h2>
 
@@ -52,28 +54,29 @@
                     selector: '.background',
                     color: ['#48BCD1'],
                     connectParticles: true,
+                    maxParticles: 80,
 
                     // options for breakpoints
-                    responsive: [{
-                        breakpoint: 768,
-                        options: {
-                            maxParticles: 200,
-                            color: '#48F2E3',
-                            connectParticles: false
-                        }
-                    }, {
-                        breakpoint: 425,
-                        options: {
-                            maxParticles: 100,
-                            connectParticles: true
-                        }
-                    }, {
-                        breakpoint: 320,
-                        options: {
-                            maxParticles: 0
-                            // disables particles.js
-                        }
-                    }]
+                    // responsive: [{
+                    //     breakpoint: 768,
+                    //     options: {
+                    //         maxParticles: 200,
+                    //         color: '#48F2E3',
+                    //         connectParticles: false
+                    //     }
+                    // }, {
+                    //     breakpoint: 425,
+                    //     options: {
+                    //         maxParticles: 100,
+                    //         connectParticles: true
+                    //     }
+                    // }, {
+                    //     breakpoint: 320,
+                    //     options: {
+                    //         maxParticles: 0
+                    //         // disables particles.js
+                    //     }
+                    // }]
                 });
             };
         </script>
