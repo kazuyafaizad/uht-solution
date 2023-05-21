@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class=" container mt-10">
+    <div class=" container my-10">
         <h1 class="text-2xl text-primary">LEARN MORE</h1>
 
         <div class="mt-10">
@@ -18,6 +18,13 @@
                 among physicians. This technology is changing the way medicine is practiced, allowing physicians to
                 quickly obtain valuable information and complement traditional physical examinations​
             </p>
+
+            <div class="grid grid-cols-2 my-4 gap-4">
+                <img src="img/LEARN MORE PIC 1.png" class="mx-auto">
+                <img src="img/LEARN MORE PIC 2.png" class="mx-auto">
+                <img src="img/LEARN MORE PIC 3.png" class="mx-auto">
+                <img src="img/LEARN MORE PIC 4.png" class="mx-auto">
+            </div>
 
             <a href="/img/Handheld Point of Care Ultrasound Probes.pdf" class="link"><small>For more information and
                     details ,click

@@ -65,7 +65,7 @@
                                     <img src="./assets/images/course-filter/1.jpg" alt="Course Image">
                                 </div>
                                 <div class="case-content">
-                                    <h4 class="case-title"> <a href="/simulation/how-to-use-ultrasound-sonoace-r7">How
+                                    <h4 class="case-title"> <a href="how-to-use-ultrasound-sonoace-r7">How
                                             To Use
                                             Ultrasound Sonoace R7</a></h4>
                                     <ul class="meta-course">

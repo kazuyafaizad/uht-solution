@@ -28,7 +28,7 @@ class QuizController extends Controller
         Quiz::updateOrCreate([
             'id'   => $request->id,
         ], [
-            'title'     => $request->link,
+            'title'     => $request->title,
             'link' => $request->link,
             'category'    => $request->category,
         ]);
