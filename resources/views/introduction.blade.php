@@ -7,18 +7,8 @@
 
 
     <style>
-        .swiper {
-            width: 70%;
-            height: 35rem;
-        }
-
         .footer {
             display: none;
-        }
-
-        .swiper-button-next,
-        .swiper-button-prev {
-            color: black;
         }
     </style>
     <div class="flex h-[calc(100vh-7.5rem)]" data-aos="fade-up">
@@ -533,10 +523,10 @@
             </section>
             <section class="px-10 py-10 bg-base-200" id="diagnosis-mode">
                 <h1 class="uppercase text-3xl  mb-5 text-primary">Diagnosis Mode</h1>
-                <h2 class="text-xl text-secondary">1. Basic Mode</h2>
+                <h2 class="text-2xl text-secondary">1. Basic Mode</h2>
 
-                <div class="my-3">
-                    <h3>2D Mode​</h3>
+                <div class="my-7">
+                    <h3 class="font-bold">2D Mode​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
                         <p>This basic mode, also referred to as B Mode (Brightness mode), provides scan planes of
                             organs. This is used to display two-dimensional anatomy images in the direction of scanning
@@ -546,11 +536,11 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <div class="my-3">
-                    <h3>M Mode​​</h3>
+                <div class="my-7">
+                    <h3 class="font-bold">M Mode​​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
 
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>
                                 The M Mode is used to specify an observation area in a 2D image with the M Line, and
                                 display changes over time.​</li>
@@ -564,11 +554,11 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <div class="my-3">
-                    <h3>Color Doppler Mode​​</h3>
+                <div class="my-7">
+                    <h3 class="font-bold">Color Doppler Mode​​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
 
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>
                                 This mode displays the colored blood flow pattern of the ROI (Region of Interest) within
                                 the 2D image.​</li>
@@ -582,11 +572,11 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <div class="my-3">
-                    <h3>Power Doppler Mode​​</h3>
+                <div class="my-7">
+                    <h3 class="font-bold">Power Doppler Mode​​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
 
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>This mode displays the color intensity of blood flow within the ROI in the 2D image.
                             </li>
                             <li>It is appropriate for examining the presence and amount of blood flow. The 2D Mode image
@@ -598,10 +588,10 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <div class="my-3">
-                    <h3>PW Spectral Doppler Mode​​​</h3>
+                <div class="my-7">
+                    <h3 class="font-bold">PW Spectral Doppler Mode​​​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>PW stands for Pulse Wave. PW Spectral Doppler Mode gives information on the speed of
                                 blood flow at a specific site in the form of a spectral trace and audio signal. Distance
                                 (depth) information can also be obtained by transmitting pulses over time frames. </li>
@@ -615,10 +605,10 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <div class="my-3">
-                    <h3>CW Spectral Doppler Mode​​​</h3>
+                <div class="my-7">
+                    <h3 class="font-bold">CW Spectral Doppler Mode​​​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>CW stands for Continuous Wave. PW Spectral Doppler Mode gives information on the
                                 speed/direction of blood flow at a specific site in the form of a spectral trace and
                                 audio signal. Unlike PW Spectral Doppler Mode, it does not provide Sample Volume.</li>
@@ -632,10 +622,10 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <div class="my-3">
-                    <h3>TDI Mode ​​​​</h3>
+                <div class="my-7">
+                    <h3 class="font-bold">TDI Mode ​​​​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>TDI stands for Tissue Doppler Imaging. It represents movements of tissues such as a
                                 heart.</li>
                             <li>This function appears in the Soft Menu only when a Phased Array Probe is used for
@@ -647,11 +637,11 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <div class="my-3">
-                    <h3>TDW Mode ​
+                <div class="my-7">
+                    <h3 class="font-bold">TDW Mode ​
                         ​​​​​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>TDW stands for Tissue Doppler Wave. It represents movements of tissues such as a heart.
                             </li>
                             <li>TDW is available only when the cardiac application with a Phased Array probe is selected
@@ -662,11 +652,12 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <h2 class="uppercase text-xl my-4 text-secondary">2. MULTI-IMAGE MODE​</h2>
-                <div class="my-3">
-                    <h3>Dual Mode​</h3>
+                <h2 class="uppercase text-2xl text-secondary mt-20">2. MULTI-IMAGE MODE​</h2>
+                <div class="my-7">
+
+                    <h3 class="font-bold">Dual Mode​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>Compare two different images at the same time. Each time press the Dual button, one of
                                 the two images is selected. The current active image mode is displayed as a yellow line
                                 at the top.
@@ -679,10 +670,10 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <div class="my-3">
-                    <h3>Quad Mode​</h3>
+                <div class="my-7">
+                    <h3 class="font-bold">Quad Mode​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>Compare four different images at the same time. Each time press the ESC key, one of the
                                 four images is selected. The current active image mode is displayed as a yellow line at
                                 the top. The button controls and menus of the active image mode are used.​
@@ -693,11 +684,11 @@
                                 class="w-full max-w-xl mx-auto"></a>
                     </div>
                 </div>
-                <h2 class="uppercase text-xl my-4 text-secondary">3. 3D / 4D MODE​​</h2>
-                <div class="my-3">
-                    <h3>Quad Mode​</h3>
+                <h2 class="uppercase text-2xl my-4 text-secondary mt-20">3. 3D / 4D MODE​​</h2>
+                <div class="my-7">
+                    <h3 class="font-bold">Quad Mode​</h3>
                     <div class="grid md:grid-cols-1 gap-3">
-                        <ul class="list-disc ">
+                        <ul class="list-disc leading-7">
                             <li>3D Mode​<br>
                                 In this mode, 3D or standard probes are used to obtain 3D images.
                             </li>
@@ -712,10 +703,12 @@
                     </div>
                 </div>
                 <div>
-                    <h2 class="uppercase text-xl my-4 text-secondar"> EVOLUTION OF ULTRASOUND TECHNOLOGY: FROM 2D TO HD
+                    <h2 class="uppercase text-2xl my-4 text-secondary mt-20"> EVOLUTION OF ULTRASOUND TECHNOLOGY: FROM
+                        2D TO
+                        HD
                         IMAGING</h2>
-                    <ul class="list-disc">
-                        <li>
+                    <ul class="list-disc leading-7">
+                        <li class="py-2">
                             <strong>2D:</strong> This is the standard ultrasound technology used in hospitals and
                             doctors' offices. High frequency, non-ionized sound waves can only travel in one plane in
                             two dimensions. A picture of the infant in black and white is returned by the sound waves.
@@ -723,7 +716,7 @@
                             morphology. They also perform gender determination using 2D technology at elective
                             facilities.
                         </li>
-                        <li>
+                        <li class="py-2">
                             <strong>3D:</strong> The evolution of medical technology led to the adoption of image volume
                             data acquisition for the development of 3D ultrasound. The application of 3D technology is
                             comparably safe to 2D, as it utilizes the same high-frequency sound waves. The ultrasound
@@ -733,14 +726,14 @@
                             detailed visualization of the baby, allowing parents to observe their child with exceptional
                             clarity.
                         </li>
-                        <li>
+                        <li class="py-2">
                             <strong>4D:</strong> The addition of real-time functionality to 3D ultrasound technology
                             results in the creation of 4D ultrasound. Real-time imaging is considered the fourth
                             dimension, allowing live visualization of the ultrasound scan as it is being conducted,
                             enabling immediate observation of the developing fetus. This means that parents have the
                             opportunity to watch their baby in real-time during the ultrasound procedure.
                         </li>
-                        <li>
+                        <li class="py-2">
                             <strong>HD:</strong> HD stands for "High Definition" and shares the same idea as other HD
                             technologies available on the market; it provides a more sharp, clear, and defined image.
                             Compared to earlier models, the ultrasound system extracts a lot more information from the
@@ -748,7 +741,7 @@
                             have called it "5D" technology.
                         </li>
                     </ul>
-                    <div class="gallery grid grid-cols-3">
+                    <div class="gallery grid grid-cols-3 mt-10">
                         <div class="flex items-center justify-center">
                             <figure class="relative max-w-xs cursor-pointer">
                                 <a href="img/2D IMAGE.png" data-fslightbox="gallery">

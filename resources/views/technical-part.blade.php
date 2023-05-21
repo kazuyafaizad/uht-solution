@@ -1,4 +1,9 @@
 <x-app-layout>
+    <style>
+        .footer {
+            display: none;
+        }
+    </style>
     <x-slot name="header">
         <h2 class="font-semibold text-xl leading-tight">
             {{ __('TECHNICAL PART') }}
@@ -16,7 +21,7 @@
         <div id="main-section"
             class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
             <section class="p-10" id="troubleshooting">
-                <h1 class="text-2xl mb-5 text-primary">Troubleshooting</h1>
+                <h1 class="uppercase text-3xl mb-5 text-primary">Troubleshooting</h1>
 
                 <div class="alert alert-warning shadow-lg">
                     <div>
@@ -38,7 +43,7 @@
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">Power cannot be turned off</h2>
                             <p>A software error or PC Motherboard or Main Board problem is likely.​</p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>The power is automatically turned off when the Power Switch is pressed for more than
                                     3seconds. If software such as printer software is running or an operating system
                                     error
@@ -53,7 +58,7 @@
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">Power is automatically turned off​</h2>
                             <p>Power cord, PC Mother Board, Main Board trouble is expected.​</p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>Check if the power cord is properly connected.​</li>
                                 <li>Check the fuse status.​​</li>
                                 <li>Connect another device to the wall outlet and check if it works.​If the device
@@ -83,7 +88,7 @@
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">Blank Screen</h2>
                             <p>DVI Cable, Monitor or Main Board trouble is expected.​</p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>Try to print to check the product status.​
                                     If printing is normal, monitor or PC Part trouble is expected.​​</li>
                                 <li>Check the cable is properly connected with the monitor.​​</li>
@@ -98,7 +103,7 @@
                             <h2 class="card-title">Screen Color is Abnormal​​</h2>
                             <p>Data Cable of the monitor or PC Part is improperly connected or monitor or PC Part
                                 trouble is expected.​​</p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>Check the monitor connection cable status.​Check the DVI Cable of LCD
                                     Monitorproperly connected with the Main Board.​​</li>
                                 <li>If no problem has been found in the above “1)”, monitor and PC Part trouble is
@@ -126,7 +131,7 @@
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">System hangs after an error during booting ​</h2>
                             <p>Temporary software error or product trouble is expected.​</p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>Turn the power off by force and then turn it on again after 1 to 2 minutes. ​​</li>
                                 <li>If the symptom continues after completing “1)”, check when the error message
                                     appears​​</li>
@@ -139,7 +144,7 @@
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">System works even if an error occurred​​​</h2>
                             <p>Temporary software error or product trouble is expected.​</p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>Turn the power off by force and then turn it on again after 1 to 2 minutes. ​​</li>
                                 <li>If the symptom continues after completing “1)”, check when the error message
                                     appears.​
@@ -169,7 +174,7 @@
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">No B-Mode Image Echo ​​</h2>
                             <p>Probe and the system connection, Main Board or Power trouble is expected.​</p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>Check the connection between the probe and the system.​​</li>
                                 <li>Check if probe oscillation sound is heard.<br>If oscillation sound is heard, the
                                     problem may be (Data Display Module) DDM trouble.​​​​</li>
@@ -186,7 +191,7 @@
                             <h2 class="card-title"> No B-Mode Image Format ​​</h2>
                             <p>Probe and the system connection, Ultrasound System Part or PC Part trouble is expected.​
                             </p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>Check the connection between the probe and the system.​​​</li>
                                 <li>Check if probe oscillation sound is heard.​​</li>
                                 <li>Check if the ADM of Alarm LED turn on NOR.<br>​If LED of NOR turn on, DDM is
@@ -201,7 +206,7 @@
                             <h2 class="card-title"> Noise Like Rain over the BW Mode Image (Noise)​ ​​</h2>
                             <p>Power noise or Main Board trouble is expected.​
                             </p>
-                            <ul class="my-3 list-decimal">
+                            <ul class="my-3 list-decimal leading-7 text-left">
                                 <li>Check if the system shares the wall outlet with another device.​<br>If the system
                                     shares the wall outlet with a device that uses electric motor or consumes high
                                     power, noise may be generated.​​​</li>
@@ -273,7 +278,7 @@
                 </div>
             </section>
             <section class="p-10" id="maintenance">
-                <h1 class="text-2xl mb-5 text-primary">USER MAINTENANCE​</h1>
+                <h1 class="uppercase text-3xl mb-5 text-primary">USER MAINTENANCE​</h1>
                 <h2 class="text-xl mb-4">Fuse Replacement​</h2>
                 <p>The power protection fuse protects the product from excess current. If the power monitoring
                     protection circuit detects excess current, it shuts off the current to the equipment in order to
@@ -375,7 +380,7 @@
                 </ul>
             </section>
             <section class="p-10" id="type-of-maintenance">
-                <h1 class="text-2xl mb-5 text-primary">TYPES OF MAINTENANCE​​</h1>
+                <h1 class="uppercase text-3xl mb-5 text-primary">TYPES OF MAINTENANCE​​</h1>
                 <img src="img/97)slide 95 type of maintenance.png" class="mx-auto">
                 <div>
                     <h2 class="text-lg my-4">PLAN PREVENTIVE MAINTAINANCE</h2>
@@ -953,7 +958,7 @@
 
             </section>
             <section class="p-10" id="safety">
-                <h1 class="text-2xl mb-5 text-primary">SAFETY AND SYMBOL​</h1>
+                <h1 class="uppercase text-3xl mb-5 text-primary">SAFETY AND SYMBOL​</h1>
                 <p>The International Electro Technical Commission (IEC) has established a set of symbols for medical
                     electronic ​
 
@@ -1203,7 +1208,7 @@
                     }
                 });
             }, {
-                rootMargin: "-200px 0px -700px 0px",
+                rootMargin: "-200px 0px -200px 0px",
                 threshold: 0,
             });
 

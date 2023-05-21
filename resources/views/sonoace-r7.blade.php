@@ -1,11 +1,16 @@
 <x-app-layout>
+    <style>
+        .footer {
+            display: none;
+        }
+    </style>
     <x-slot name="header">
         <h2 class="font-semibold text-xl leading-tight">
             {{ __('SONOACE R7') }}
         </h2>
     </x-slot>
     <div class="flex h-[calc(100vh-7.5rem)]" data-aos="fade-up">
-        <div class="w-1/3 sticky top-0 h-full bg-base-200">
+        <div class="w-1/5 sticky top-0 h-full bg-base-200">
             <ul class="menu bg-base-100 w-full">
                 <li><a class="active" href="#block-diagram">Block Diagram</a></li>
                 <li><a href="#phantom">Phantom(Multi-tissue ultrasound phantom)</a></li>
@@ -13,37 +18,37 @@
             </ul>
         </div>
         <div id="main-section"
-            class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
-            <section class="p-10" id="block-diagram">
-                <h1 class="text-2xl mb-5 text-primary">BLOCK DIAGRAM</h1>
-                <img src="/img/59) slide 38 block diagram.png" alt="" class="mx-auto">
-                <p>SONOACER7 consists of the following major components.​</p>
+            class="w-2/4 flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
+            <section class="px-10 pb-10" id="block-diagram">
+                <h1 class="uppercase text-3xl mb-5 text-primary">BLOCK DIAGRAM</h1>
+                <img src="/img/59) slide 38 block diagram.png" alt="" class="w-full max-w-xl mx-auto">
+                <p class="font-bold mt-5">SONOACER7 consists of the following major components.​</p>
 
-                <ol class="list-decimal my-3">
+                <ol class="list-decimal leading-7 my-4">
                     <li>Ultrasound System Part : PSA, Main Board, CW Board, DC to DC Power Module​</li>
 
                     <li>User Interface Part : LCD Monitor, Control Panel, Track Ball, Alphanumeric Keyboard</li>
                 </ol>
-                <p class="my-3">Front End Part refers to the CW (Continuous Wave) Board, PSA (Probe Select Assembly),
+                <p class="text-justify">Front End Part refers to the CW (Continuous Wave) Board, PSA (Probe Select
+                    Assembly),
                     and BF
                     (Beamformer) Board of the Ultrasound System Part. The Front End Part delivers High Voltage Pulser to
                     the probe so that ultrasound is generated, amplifies the returned echo signal and processes Digital
                     Beamforming. The RF signal generated here is delivered to the Back End Part.​</p>
-                <p class="my-3">
+                <p class="text-justify">
                     Back End Part refers to the BE(Back End) Board and PC of the Ultrasound System Part. ​
-
                     The RF signal generated in the BF(Beamformer) Board is processed to diagnosis image such as BW,
                     Color Doppler, PW Doppler, CW Doppler, and Power Doppler and displayed on the monitor so that users
                     can see it. ​
-
                     User Interface Part refers to the LCD monitor and control panel​</p>
             </section>
-            <section class="p-10" id="phantom">
-                <h1 class="text-2xl mb-5 text-primary">PHANTOM CIRS ( General Purpose Multi-Tissue Ultrasound Phantom)​
+            <section class="px-10 py-10 bg-base-200" id="phantom">
+                <h1 class="uppercase text-3xl mb-5 text-primary">PHANTOM CIRS (General Purpose Multi-Tissue Ultrasound
+                    Phantom)​
                 </h1>
-                <h2 class="my-4">Introduction ​</h2>
+                <h2 class="mb-5 font-bold">Introduction ​</h2>
 
-                <ul class=" my-3">
+                <ul class=" my-4 leading-7">
                     <li>
                         <div class="flex">
                             <p class="w-2/3">
@@ -54,7 +59,8 @@
                                 curvilinear and endocavity. Additionally, it is the only QA phantom available on the
                                 market that offers both elasticity targets and every common B-mode imaging test object.​
 
-                                ​</p><img src="/img/60)slide 40 PHANTOM.png" alt="" class="w-1/3">
+                                ​</p><img src="/img/60)slide 40 PHANTOM.png" alt=""
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
@@ -64,32 +70,34 @@
                                 probe and small
                                 endocavity probe.
 
-                                ​</p><img src="/img/61)slide 41 detachable scanning.png" alt="" class="w-1/3">
+                                ​</p><img src="/img/61)slide 41 detachable scanning.png" alt=""
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
                     <li>
                         <div class="flex">
                             <p class="w-2/3">It is packaged in a hermetically sealed, air tight, rugged carrying case.
-                                ​</p><img src="/img/62)slide 41 casing bag.png" alt="" class="w-1/3">
+                                ​</p><img src="/img/62)slide 41 casing bag.png" alt=""
+                                class="w-full max-w-xl mx-auto">
                         </div>
                     </li>
 
                 </ul>
 
                 <h2 class="my-4">KEY PERFORMANCE MEASUREMENT​​</h2>
-                <div>
-                    <img src="/img/63)slide 42 KEY PERFORMANCE MEASUREMENT1.png" alt="" class="w-2/3 mx-auto">
-                    <img src="/img/63)slide 42 KEY PERFORMANCE MEASUREMENT 2.png" alt="" class="w-2/3 mx-auto">
+                <div class="grid grid-cols-2">
+                    <img src="/img/63)slide 42 KEY PERFORMANCE MEASUREMENT1.png" alt="" class=" mx-auto">
+                    <img src="/img/63)slide 42 KEY PERFORMANCE MEASUREMENT 2.png" alt="" class=" mx-auto">
                 </div>
-                <ul class="list-decimal my-3">
+                <ul class="list-decimal my-3 leading-7">
                     <li>
                         <div class="flex">
                             <p class="w-2/3">
                                 Take out the phantom
 
                                 ​</p><img src="/img/64)slide 43 Ultrasound Phantom Set Up 1.png" alt=""
-                                class="w-1/3">
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
@@ -98,7 +106,7 @@
                             <p class="w-2/3">
                                 Remove the cover
                                 ​</p><img src="/img/65)slide 43 Ultrasound Phantom Set Up 2.png" alt=""
-                                class="w-1/3">
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
@@ -108,7 +116,7 @@
                                 Set up the right cover. For scannning using distilled water, the following cover is
                                 used.
                                 ​</p><img src="/img/66)slide 44 Ultrasound Phantom Set Up 3.png" alt=""
-                                class="w-1/3">
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
@@ -117,7 +125,7 @@
                             <p class="w-2/3">
                                 Fill the phantom with distilled water​
                                 ​</p><img src="/img/67) slide 44 Ultrasound Phantom Set Up 4.png" alt=""
-                                class="w-1/3">
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
@@ -126,7 +134,7 @@
                             <p class="w-2/3">
                                 Put the probe on top of the phantom​
                                 ​</p><img src="/img/68)slide 44 Ultrasound Phantom Set Up 5.png" alt=""
-                                class="w-1/3">
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
@@ -136,7 +144,7 @@
                                 When the scanning is done , throw away the water. The phantom is cleaned gently with
                                 tissue.​
                                 ​</p><img src="/img/69)slide 45 Ultrasound Phantom Set Up 7.png" alt=""
-                                class="w-1/3">
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
@@ -146,7 +154,7 @@
                                 For scanning with ultrasound gel, make sure it is ultrasound gel and put some ultrasound
                                 gel on the probes.​
                                 ​</p><img src="/img/70)slide 45 Ultrasound Phantom Set Up 8.png" alt=""
-                                class="w-1/3">
+                                class="w-full max-w-xl mx-auto">
                         </div>
                         ​​
                     </li>
@@ -160,12 +168,12 @@
                         ​​
                     </li>
                 </ul>
-                <h2 class="my-4">OUTLINE</h2>
+                <h2 class="my-4 text-2xl text-secondary">OUTLINE</h2>
                 <div class="card card-side bg-base-100 shadow-xl">
                     <figure class="w-1/3"> <img src="/img/71)slide 47 uniformity.png" alt=""></figure>
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Uniformity​</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>The ability of the machine to display echoes of the same magnitude and depth with equal
                                 bright-ness on the display.</li>
                             <li>It is a test to ensure all crystal within the transducer are functioning.</li>
@@ -176,8 +184,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2  text-lg">Uniformity Test Procedure​</h3>
-                    <ul class="list-decimal">
+                    <h3 class="my-2 font-bold text-lg">Uniformity Test Procedure​</h3>
+                    <ul class="list-decimal leading-7">
                         <li>
                             Apply coupling gel to the scanning surface or fill the water through with tap water.​</li>
 
@@ -199,12 +207,12 @@
                         <li>Record your observation​</li>
                     </ul>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl my-2">
+                <div class="card card-side bg-base-100 shadow-xl mt-12">
                     <figure class="w-1/3"> <img src="/img/72)slide 49 near field resolution.png" alt="">
                     </figure>
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Near Field Resolution</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>The ability of the machine to display echoes of the same magnitude and depth with equal
                                 brightness on the display.​</li>
                             <li>It is a test to ensure all the crystal within the transducer are functioning.</li>
@@ -215,9 +223,9 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2 text-lg">Near Field Test Procedure​​</h3>
+                    <h3 class="my-4 font-bold text-lg">Near Field Test Procedure​​</h3>
 
-                    <ul class="list-decimal">
+                    <ul class="list-decimal leading-7">
                         <li>
                             Apply coupling gel to the scanning surface or fill the water through with tap water.​</li>
 
@@ -250,11 +258,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl my-2">
+                <div class="card card-side bg-base-100 shadow-xl mt-12">
 
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Depth Of Penetration </h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>It is called maximum depth of visualization or sensitivity , is the greatest distance in
                                 a
                                 phantom for which echo signals due to the scatterers within the tissue mimicking
@@ -271,8 +279,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2 text-lg">Depth Of Penetration Procedures​​​</h3>
-                    <ul class="list-decimal">
+                    <h3 class="my-4 font-bold text-lg">Depth Of Penetration Procedures​​​</h3>
+                    <ul class="list-decimal leading-7">
 
                         <li>Apply coupling gel to the scanning surface or fill the water through with tap water.​</li>
 
@@ -303,11 +311,11 @@
                         <li>Record the distance on a record sheet and compare with baseline depth.​</li>
                     </ul>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl my-2">
+                <div class="card card-side bg-base-100 shadow-xl mt-12">
 
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Focal Point​</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>The narrowest region within the beam profile. ​​</li>
 
                             <li>Minimum lenght of target​</li>
@@ -317,8 +325,8 @@
                         </div>
                     </div>
                 </div>
-                <h3 class="my-2 text-lg">Focal Point Test Procedure​​</h3>
-                <ul class="list-decimal">
+                <h3 class="my-4 font-bold text-lg">Focal Point Test Procedure​​</h3>
+                <ul class="list-decimal leading-7">
                     <li>Apply coupling gel to the scanning surface or fill the water through with tap water.​
                     </li>
 
@@ -357,13 +365,13 @@
 
                     <li>Record the focal point and save the hard copy.​</li>
                 </ul>
-                <div class="card card-side bg-base-100 shadow-xl  my-2">
+                <div class="card card-side bg-base-100 shadow-xl  mt-12">
                     <figure class="w-1/3"> <img src="/img/73)slide 55 vertical distance.png" alt="">
                     </figure>
 
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Vertical Distance​</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>Defines as the distance along the axis of the beam.</li>
                             <li>Distance are used to measure areas, volumes , depths, and sizes of the objects.</li>
                         </ul>
@@ -373,8 +381,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2 text-lg">Vertical Distance ​​​​ Procedures​​​</h3>
-                    <ul class="list-decimal">
+                    <h3 class="my-4 font-bold text-lg">Vertical Distance ​​​​ Procedures​​​</h3>
+                    <ul class="list-decimal leading-7">
                         <li>Apply coupling gel to the scanning surface or fill the water through with tap water.​
                         </li>
 
@@ -406,13 +414,13 @@
 
                     </ul>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl  my-2">
+                <div class="card card-side bg-base-100 shadow-xl  mt-12">
                     <figure class="w-1/3"> <img src="/img/74)slide 57 horizontal distance.png" alt="">
                     </figure>
 
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Horizontal Distance​</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>Is used to determine the accuracy of measurements made perpendicular to the beam
                                 axis and is
                                 critical for the same reasons as vertical distance measurements.</li>
@@ -428,8 +436,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2 text-lg">Horizontal Distance Procedure​​​​</h3>
-                    <ul class="list-decimal">
+                    <h3 class="my-4 font-bold text-lg">Horizontal Distance Procedure​​​​</h3>
+                    <ul class="list-decimal leading-7">
                         <li>Apply coupling gel to the scanning surface or fill the water through with tap water.
                         </li>
                         <li>Position the transducer above the near field resolution target and perpendicular to the
@@ -451,12 +459,12 @@
                     </ul>
                 </div>
 
-                <div class="card card-side bg-base-100 shadow-xl  my-2">
+                <div class="card card-side bg-base-100 shadow-xl  mt-12">
                     <figure class="w-1/3"> <img src="/img/75)slide 59 axial resolution.png" alt=""></figure>
 
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Axial Resolution​</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li> Define as the ability of an ultrasound system to resolve objects in close proximity
                                 along
                                 the
@@ -477,8 +485,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2 text-lg">Axial Resolution Procedures​​​​​</h3>
-                    <ul class="list-decimal">
+                    <h3 class="my-4 font-bold text-lg">Axial Resolution Procedures​​​​​</h3>
+                    <ul class="list-decimal leading-7">
                         <li>Apply coupling gel to the scanning surface or fill the water through with tap water.​</li>
 
                         <li>Position the transducer above the near field resolution target and perpendicular to the
@@ -500,13 +508,13 @@
                             of 1 mm then record the axial resolution as being “ in between 0.5 mm and 1.0 mm”.​</li>
                     </ul>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl  my-2">
+                <div class="card card-side bg-base-100 shadow-xl  mt-12">
                     <figure class="w-1/3"> <img src="/img/76)slide 61 lateral resolution.png" alt="">
                     </figure>
 
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Lateral Resolution ​​</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>Is similar to axial resolution except it is concerned with teh resolution perpendicular
                                 to the beam axis.​</li>
 
@@ -519,8 +527,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2 text-lg">Lateral Resolution Procedures​</h3>
-                    <ul class="list-decimal">
+                    <h3 class="my-4 font-bold text-lg">Lateral Resolution Procedures​</h3>
+                    <ul class="list-decimal leading-7">
                         <li>Apply coupling gel to the scanning surface or fill the water through with tap water.</li>
                         <li>Position the transducer above the near field resolution target and perpendicular to the
                             wires. (The wire should appear as dots, not line). Do not apply excessive pressure as this
@@ -533,13 +541,13 @@
                             two distinct objects. Record this distance as the lateral resolution.</li>
                     </ul>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl  my-2">
+                <div class="card card-side bg-base-100 shadow-xl  mt-12">
                     <figure class="w-1/3"> <img src="/img/77)slide 63 low scatter.png" alt="">
                     </figure>
 
                     <div class="card-body w-2/3">
                         <h2 class="card-title">Low Scatter​​​</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>A diagnol row of cylinders having no scatter is provided in the phantom to test a
                                 machine’s ability to image cyst-like structure of varying size and depth in two
                                 different backgrounds.​</li>
@@ -553,8 +561,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2 text-lg">Low Scatter Procedure​​</h3>
-                    <ul class="list-decimal">
+                    <h3 class="my-4 font-bold text-lg">Low Scatter Procedure​​</h3>
+                    <ul class="list-decimal leading-7">
                         <li>Apply coupling gel to the scanning surface or fill the water through with tap water.</li>
                         <li>Position the transducer above the cyst of interest and perpendicular to the wires. You
                             should be imaging the circular cross section of the cylinders.</li>
@@ -570,14 +578,14 @@
                     </ul>
                 </div>
 
-                <div class="card card-side bg-base-100 shadow-xl  my-2">
+                <div class="card card-side bg-base-100 shadow-xl  mt-12">
                     <figure class="w-1/3"> <img src="/img/78)slide 65 high scatter.png" alt="">
                     </figure>
 
                     <div class="card-body w-2/3">
                         <h2 class="card-title">High Scatter ​
                             ​​​​</h2>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>A diagonal row of cylinders having contrast that is +15dB with respect to the background
                                 material is provided in the phantom to test a machine’s ability to image solid tumors of
                                 varying size and depth.​</li>
@@ -591,8 +599,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="my-2 text-lg">High Scatter Procedure​​</h3>
-                    <ul class="list-decimal">
+                    <h3 class="my-4 font-bold text-lg">High Scatter Procedure​​</h3>
+                    <ul class="list-decimal leading-7">
                         <li>Apply coupling gel to the scanning surface or fill the water through with tap water.</li>
                         <li>Position the transducer above the tumor of interest and perpendicular to the wires. (The
                             tumor should appear as a circular region).</li>
@@ -608,23 +616,23 @@
                         <li>Record your observations.</li>
                     </ul>
                 </div>
-                <div id="video-tutorial" class="my-4 text-center">
-                    <h3 class="text-lg">TUTORIAL OF HOW TO USE THE PHANTOM TO PERFORM THE TEST​</h3>
-                    <video width="320" height="240" controls class="mx-auto">
+                <div id="video-tutorial" class="mt-12 text-center">
+                    <h3 class="text-xl mb-5">TUTORIAL OF HOW TO USE THE PHANTOM TO PERFORM THE TEST​</h3>
+                    <video controls class="w-full max-w-xl mx-auto">
                         <source src="img/video how to use phantom slide67.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div class="my-4 text-center">
                     <h3 class="text-lg">AXIAL RESOLUTION AND LATERAL RESOLUTION TEST​​</h3>
-                    <video width="320" height="240" controls class="mx-auto">
+                    <video controls class="w-full max-w-xl mx-auto">
                         <source src="img/video axial resolution slide 68.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div class="my-4 text-center">
                     <h3 class="text-lg">VERTICAL DISTANCE AND HORIZONTAL TEST​​</h3>
-                    <video width="320" height="240" controls class="mx-auto">
+                    <video controls class="w-full max-w-xl mx-auto">
                         <source src="img/video low scatter slide 70.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -632,7 +640,7 @@
 
             </section>
             <section class="p-10" id="probe">
-                <h1 class="text-2xl mb-5 text-primary">PROBE</h1>
+                <h1 class="uppercase text-3xl mb-5 text-primary">PROBE</h1>
                 <p>The probe is a device that sends and receives ultrasound for acquiring image data. It is also called
                     a Transducer or Scanhead.​</p>
 
@@ -752,7 +760,7 @@
 
                 <div class="my-4">
                     <h2 class="text-xl mb-4">Disinfectants for System Surfaces (with Monitor)​</h2>
-                    <ul class="mb-4 list-disc">
+                    <ul class="mb-4 list-disc leading-7">
                         <li>Using a non-compatible disinfection procedure may result in damage to the system. Ensure to
                             check the expiration date of the disinfectant prior to use.</li>
                         <li>Mix the disinfectant solution to the strength specified on the instruction of the
@@ -800,7 +808,7 @@
                         from
                         entering non-liquid-tight areas of the probe.
                     </p>
-                    <ol class="mb-4 list-decimal">
+                    <ol class="mb-4 list-decimal leading-7">
                         <li>Disconnect the probe from the system.</li>
                         <li>Remove any biopsy adapters or biopsy needle guides. (Biopsy adapters are re-usable
                             and can
@@ -832,7 +840,7 @@
                     </ul><br>
 
                     <p><strong class="text-error">CAUTION</strong></p>
-                    <ul class="list-disc">
+                    <ul class="list-disc leading-7">
                         <li>Using a non-recommended disinfectant or not following the recommended disinfection
                             method
                             can damage and or discolor the probe and will void the probe warranty.</li>
@@ -842,7 +850,7 @@
                             non-MEDISON-approved methods.</li>
                     </ul>
 
-                    <ol class="list-decimal">
+                    <ol class="list-decimal leading-7">
                         <li>Follow the instructions on the disinfectant label for storage, use, and disposition
                             of the
                             disinfectant.</li>
@@ -999,7 +1007,7 @@
                     }
                 });
             }, {
-                rootMargin: "-200px 0px -700px 0px",
+                rootMargin: "-200px 0px -200px 0px",
                 threshold: 0,
             });
 

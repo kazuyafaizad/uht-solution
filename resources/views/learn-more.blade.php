@@ -1,6 +1,6 @@
 <x-app-layout>
     <div class=" container my-10">
-        <h1 class="text-2xl text-primary">LEARN MORE</h1>
+        <h1 class="uppercase text-3xl mb-5 text-primary">LEARN MORE</h1>
 
         <div class="mt-10">
             <h2 class="text-xl mb-5">LATEST ULTRASOUND MACHINE TECHNOLOGY​</h2>

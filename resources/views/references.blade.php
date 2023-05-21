@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="h-[calc(100vh-7.5rem)]">
         <div class="container mt-10">
-            <h1 class="text-2xl text-primary">REFERENCES ​</h1>
+            <h1 class="uppercase text-3xl mb-5 text-primary">REFERENCES ​</h1>
 
             <ol class="list-decimal mt-5">
                 <li>
