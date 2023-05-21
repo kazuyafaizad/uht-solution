@@ -1,3 +1,4 @@
-<a class="text-blue-800 font-bold normal-case text-xs" href="/"
-    {{ $attributes }}>Ultrasound<br>Healthcare<br>Training
-    Solution</a>
+<a class="" href="/" {{ $attributes }}>
+    <img src="/logo.png" class="h-16">
+
+</a>

@@ -24,7 +24,8 @@
                 {{-- <li><a href="#overview">Overview of Ultrasound SonoAce R7</a></li> --}}
             </ul>
         </div>
-        <div id="main-section" class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
+        <div id="main-section"
+            class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
             <section id="general-feature-and-advantages" class="p-10">
                 <h1 class="uppercase text-2xl mb-5 text-primary">General Feature and Advantages</h1>
                 <ul class="list-disc list-inside">
@@ -59,6 +60,42 @@
                         including VCRs and printers can be
                         easily connected to the SonoAceR7.</li>
                 </ul>
+                <p class="my-3 font-bold">Navigate through the 3D below</p>
+                <div class="sketchfab-embed-wrapper my-4 h-80"> <iframe class="w-full h-4/5" title="Printer Ultrasound"
+                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                        src="https://sketchfab.com/models/0c8fe556423142b3a1e866782aa747b2/embed"> </iframe>
+                    <p> <a href="https://sketchfab.com/3d-models/printer-ultrasound-0c8fe556423142b3a1e866782aa747b2?utm_medium=embed&utm_campaign=share-popup&utm_content=0c8fe556423142b3a1e866782aa747b2"
+                            target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Printer
+                            Ultrasound </p>
+                </div>
+                <div class="sketchfab-embed-wrapper my-4 h-80"> <iframe class="w-full h-4/5" title="Props"
+                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                        src="https://sketchfab.com/models/f15de6c46aba470c8b7b04001e6982b4/embed"> </iframe>
+                    <p> <a href="https://sketchfab.com/3d-models/props-f15de6c46aba470c8b7b04001e6982b4?utm_medium=embed&utm_campaign=share-popup&utm_content=f15de6c46aba470c8b7b04001e6982b4"
+                            target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Probes </a></p>
+                </div>
+                <div class="sketchfab-embed-wrapper my-4 h-80"> <iframe class="w-full h-4/5" title="Body Ultrasound"
+                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                        src="https://sketchfab.com/models/345045064273456a9d5f989b8f8eca40/embed"> </iframe>
+                    <p> <a href="https://sketchfab.com/3d-models/body-ultrasound-345045064273456a9d5f989b8f8eca40?utm_medium=embed&utm_campaign=share-popup&utm_content=345045064273456a9d5f989b8f8eca40"
+                            target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Body Ultrasound
+                        </a> </p>
+                </div>
+                <div class="sketchfab-embed-wrapper my-4 h-80"> <iframe class="w-full h-4/5" title="Monitor Ultra Sound"
+                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                        src="https://sketchfab.com/models/8f6e799c929549208323e26a95de71a2/embed"> </iframe>
+                    <p> <a href="https://sketchfab.com/3d-models/monitor-ultra-sound-8f6e799c929549208323e26a95de71a2?utm_medium=embed&utm_campaign=share-popup&utm_content=8f6e799c929549208323e26a95de71a2"
+                            target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Monitor Ultra
+                            Sound </a> </p>
+                </div>
             </section>
             <section class="p-10" id="classification">
                 <h1 class="uppercase text-2xl  mb-5 text-primary">CLASSIFICATION</h1>
@@ -665,6 +702,111 @@
                             </li>
                         </ul>
                         <img src="/img/58)slide 36 3D 4D Mode.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <h2 class="uppercase text-xl my-4 text-secondar"> EVOLUTION OF ULTRASOUND TECHNOLOGY: FROM 2D TO HD
+                        IMAGING</h2>
+                    <ul class="list-disc">
+                        <li>
+                            <strong>2D:</strong> This is the standard ultrasound technology used in hospitals and
+                            doctors' offices. High frequency, non-ionized sound waves can only travel in one plane in
+                            two dimensions. A picture of the infant in black and white is returned by the sound waves.
+                            2D ultrasounds are frequently used in medical settings to assess fetal anatomy and
+                            morphology. They also perform gender determination using 2D technology at elective
+                            facilities.
+                        </li>
+                        <li>
+                            <strong>3D:</strong> The evolution of medical technology led to the adoption of image volume
+                            data acquisition for the development of 3D ultrasound. The application of 3D technology is
+                            comparably safe to 2D, as it utilizes the same high-frequency sound waves. The ultrasound
+                            machine seamlessly integrates these sound wave reflections with advanced high-speed
+                            computing software to generate a three-dimensional image, capturing the diverse angles of
+                            reflection. In elective facilities, 3D technology is employed to provide an immersive and
+                            detailed visualization of the baby, allowing parents to observe their child with exceptional
+                            clarity.
+                        </li>
+                        <li>
+                            <strong>4D:</strong> The addition of real-time functionality to 3D ultrasound technology
+                            results in the creation of 4D ultrasound. Real-time imaging is considered the fourth
+                            dimension, allowing live visualization of the ultrasound scan as it is being conducted,
+                            enabling immediate observation of the developing fetus. This means that parents have the
+                            opportunity to watch their baby in real-time during the ultrasound procedure.
+                        </li>
+                        <li>
+                            <strong>HD:</strong> HD stands for "High Definition" and shares the same idea as other HD
+                            technologies available on the market; it provides a more sharp, clear, and defined image.
+                            Compared to earlier models, the ultrasound system extracts a lot more information from the
+                            3D/4D data, producing incredibly detailed images of the baby. Even some elective facilities
+                            have called it "5D" technology.
+                        </li>
+                    </ul>
+                    <div class="gallery grid grid-cols-3">
+                        <div class="flex items-center justify-center">
+                            <figure class="relative max-w-xs cursor-pointer">
+                                <a href="img/2D IMAGE.png" data-fslightbox="gallery">
+                                    <img class="rounded-lg shadow-xl hover:shadow-2xl" src="img/2D IMAGE.png"
+                                        alt="" title="3D Image">
+                                </a>
+                                <figcaption class="absolute text-lg -mt-16 text-white px-4">
+                                    <div>
+                                        <h1>2D Image</h1>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <figure class="relative max-w-xs cursor-pointer">
+                                <a href="img/3D IMAGE.png" data-fslightbox="gallery">
+                                    <img class="rounded-lg shadow-xl hover:shadow-2xl" src="img/3D IMAGE.png"
+                                        alt="" title="3D Image">
+                                </a>
+                                <figcaption class="absolute text-lg -mt-16 text-white px-4">
+                                    <div>
+                                        <h1>3D Image</h1>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <figure class="relative max-w-xs cursor-pointer">
+                                <a href="img/4D IMAGE 1.png" data-fslightbox="gallery">
+                                    <img class="rounded-lg shadow-xl hover:shadow-2xl" src="img/4D IMAGE 1.png"
+                                        alt="" title="4D Image">
+                                </a>
+                                <figcaption class="absolute text-lg -mt-16 text-white px-4">
+                                    <div>
+                                        <h1>4D Image</h1>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <figure class="relative max-w-xs cursor-pointer">
+                                <a href="img/4D IMAGE 2.png" data-fslightbox="gallery">
+                                    <img class="rounded-lg shadow-xl hover:shadow-2xl" src="img/4D IMAGE 2.png"
+                                        alt="" title="4D Image">
+                                </a>
+                                <figcaption class="absolute text-lg -mt-16 text-white px-4">
+                                    <div>
+                                        <h1>4D Image</h1>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <figure class="relative max-w-xs cursor-pointer">
+                                <a href="img/5D IMAGE.png" data-fslightbox="gallery">
+                                    <img class="rounded-lg shadow-xl hover:shadow-2xl" src="img/5D IMAGE.png"
+                                        alt="" title="5D Image">
+                                </a>
+                                <figcaption class="absolute text-lg -mt-16 text-white px-4">
+                                    <div>
+                                        <h1>5D Image</h1>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -1,4 +1,4 @@
-<div class="navbar sticky top-0 container max-w-7xl mx-auto bg-base-100 z-10">
+<div class="navbar sticky top-0 container w-full mx-auto bg-base-100 z-10 ">
     <div class="navbar-start">
         <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -30,6 +30,8 @@
                                 </a>
                             </form>
                         </li>
+                        <li><a href="/dashboard">Dashboard</a></li>
+
                     </ul>
                 </li>
 
@@ -40,10 +42,12 @@
     <div class="navbar-end hidden lg:flex">
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1">
-                <li><a href="/#about" >About</a></li>
+                <li><a href="/#about">About</a></li>
                 @auth
-                    <li><a href="{{ url('/dashboard') }}" class="btn-primary text-primary-content">Dashboard</a></li>
-                    <li>
+                    <li class=" ml-4"><a href="{{ url('/dashboard') }}"
+                            class="btn-primary text-primary-content">Dashboard</a></li>
+                    </li>
+                    <li class=" ml-4">
                         <!-- Authentication -->
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
@@ -56,9 +60,10 @@
                         </form>
                     </li>
                 @else
-                    <li><a href="{{ route('login') }}">Login</a></li>
+                    <li class=" ml-4"><a href="{{ route('login') }}">Login</a></li>
                     @if (Route::has('register'))
-                        <li><a href="{{ route('register') }}" class="btn btn-primary text-primary-content">Register</a></li>
+                        <li class=" ml-4"><a href="{{ route('register') }}"
+                                class="btn btn-primary text-primary-content">Register</a></li>
                     @endif
 
                 @endauth

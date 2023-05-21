@@ -1,14 +1,13 @@
 <x-app-layout>
-<style>
-
-.background {
-position : absolute ;
-display:block;
-top: 0;
-left: 0;
-z-index: -1;
-}
-</style>
+    <style>
+        .background {
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
     <div class="hero h-[calc(100vh-9rem)]">
 
         <div class="hero-content flex-col lg:flex-row-reverse">
@@ -20,8 +19,8 @@ z-index: -1;
             <div>
                 <h1 class="text-5xl font-bold text-primary">ULTRASOUND SONOACE R7 HEALTHCARE ​TRAINING SOLUTION​</h1>
                 <p class="py-6"></p>
-                <button class="btn btn-primary">Get Started</button>
-                <button class="btn btn-primary">Learn More</button>
+                <a href="/login" class="btn btn-primary">Get Started</a>
+                <a href="/learn-more" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
@@ -45,42 +44,38 @@ z-index: -1;
         </ul>
     </div>
 
-<canvas class=
-"background"
-></canvas>
- @push('scripts')
-<script>
+    <canvas class="background"></canvas>
+    @push('scripts')
+        <script>
+            window.onload = function() {
+                Particles.init({
+                    selector: '.background',
+                    color: ['#48BCD1'],
+                    connectParticles: true,
 
-window.onload = function() {
-  Particles.init({
-    selector:'.background',
-    color: ['#48BCD1'],
-  connectParticles: true,
-
-// options for breakpoints
-  responsive: [ {
-      breakpoint: 768,
-      options: {
-        maxParticles:200,
-        color:'#48F2E3',
-        connectParticles:false
-      }
-    }, {
-      breakpoint:425,
-      options: {
-        maxParticles:100,
-        connectParticles:true
-      }
-    }, {
-      breakpoint:320,
-      options: {
-        maxParticles:0
-// disables particles.js
-      }
-    }
-  ]
-  });
-};
-</script>
-@endpush
+                    // options for breakpoints
+                    responsive: [{
+                        breakpoint: 768,
+                        options: {
+                            maxParticles: 200,
+                            color: '#48F2E3',
+                            connectParticles: false
+                        }
+                    }, {
+                        breakpoint: 425,
+                        options: {
+                            maxParticles: 100,
+                            connectParticles: true
+                        }
+                    }, {
+                        breakpoint: 320,
+                        options: {
+                            maxParticles: 0
+                            // disables particles.js
+                        }
+                    }]
+                });
+            };
+        </script>
+    @endpush
 </x-app-layout>

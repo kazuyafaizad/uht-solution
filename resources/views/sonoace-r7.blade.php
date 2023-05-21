@@ -12,7 +12,8 @@
                 <li><a href="#probe">Probe</a></li>
             </ul>
         </div>
-        <div id="main-section" class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
+        <div id="main-section"
+            class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
             <section class="p-10" id="block-diagram">
                 <h1 class="text-2xl mb-5 text-primary">BLOCK DIAGRAM</h1>
                 <img src="/img/59) slide 38 block diagram.png" alt="" class="mx-auto">
@@ -38,7 +39,8 @@
                     User Interface Part refers to the LCD monitor and control panel​</p>
             </section>
             <section class="p-10" id="phantom">
-                <h1 class="text-2xl mb-5 text-primary">PHANTOM CIRS ( General Purpose Multi-Tissue Ultrasound Phantom)​</h1>
+                <h1 class="text-2xl mb-5 text-primary">PHANTOM CIRS ( General Purpose Multi-Tissue Ultrasound Phantom)​
+                </h1>
                 <h2 class="my-4">Introduction ​</h2>
 
                 <ul class=" my-3">
@@ -768,8 +770,9 @@
                     </ul>
                     <img src="/img/86)slide 76.png" alt="" class="w-full max-w-5xl mx-auto">
 
-                    <small>For more infomation and details, click this file​</small>
-
+                    <a href="/files/DISINFECTED MATERIAL -76-.xlsx" class="link"><small>For more information and
+                            details ,click
+                            this file</small></a>
 
                 </div>
 
@@ -778,27 +781,33 @@
                     <p class="font-bold mb-3">
                         Cleaning​</p>
 
-                    <p class="mb-3">Cleaning is an important procedure that is carried out before disinfecting the
+                    <p class="mb-3">Cleaning is an important procedure that is carried out before
+                        disinfecting the
                         probe. The probe
                         must be cleaned after each use.​ <br><br>
 
                         <strong class="text-error">CAUTION: ​</strong><br>
 
-                        Do not use a surgical brush when cleaning probes. The use of even soft brushes can damage the
+                        Do not use a surgical brush when cleaning probes. The use of even soft brushes can
+                        damage the
                         probe.​
                     </p>
 
-                    <p class="mb-3"> During cleaning and disinfection, keep the parts of the probe that must remain
+                    <p class="mb-3"> During cleaning and disinfection, keep the parts of the probe that must
+                        remain
                         dry higher than
-                        the other parts during wetting until all parts are dry. This will help prevent liquid from
+                        the other parts during wetting until all parts are dry. This will help prevent liquid
+                        from
                         entering non-liquid-tight areas of the probe.
                     </p>
                     <ol class="mb-4 list-decimal">
                         <li>Disconnect the probe from the system.</li>
-                        <li>Remove any biopsy adapters or biopsy needle guides. (Biopsy adapters are re-usable and can
+                        <li>Remove any biopsy adapters or biopsy needle guides. (Biopsy adapters are re-usable
+                            and can
                             be disinfected).</li>
                         <li>Discard sheaths. (Sheaths are single-use items).</li>
-                        <li>Use a soft cloth lightly dampened with mild soap or compatible cleaning solution to remove
+                        <li>Use a soft cloth lightly dampened with mild soap or compatible cleaning solution to
+                            remove
                             any particulate matter and body fluid that remain on the probe or cable.</li>
                         <li>To remove remaining particulates, rinse with water up to the immersion point.</li>
                         <li>Wipe with a dry cloth.</li>
@@ -806,45 +815,60 @@
                     </ol>
                     <img src="/img/87)slide 77.png" alt="" class="w-full max-w-5xl mx-auto">
 
-                    <small>For more infomation and details, click this file​</small>
+                    <a href="/files/Cleaning and Disinfecting the US System_Monitor_Probe_Rev26_en-us -77-.pdf"
+                        class="link"><small>For more information and
+                            details ,click
+                            this file</small></a>
 
                     <p><strong class="text-error">WARNING</strong></p>
                     <ul>
-                        <li>If a pre-mixed solution is used, be sure to observe the solution expiration date.</li>
-                        <li>The type of tissue it will contact during use dictates the level of disinfection required
-                            for a device. Ensure that the solution strength and duration of contact are appropriate for
+                        <li>If a pre-mixed solution is used, be sure to observe the solution expiration date.
+                        </li>
+                        <li>The type of tissue it will contact during use dictates the level of disinfection
+                            required
+                            for a device. Ensure that the solution strength and duration of contact are
+                            appropriate for
                             disinfection.</li>
                     </ul><br>
 
                     <p><strong class="text-error">CAUTION</strong></p>
                     <ul class="list-disc">
-                        <li>Using a non-recommended disinfectant or not following the recommended disinfection method
+                        <li>Using a non-recommended disinfectant or not following the recommended disinfection
+                            method
                             can damage and or discolor the probe and will void the probe warranty.</li>
-                        <li>Do not immerse probes for longer than one hour, unless they are sterilizable. Only sterilize
+                        <li>Do not immerse probes for longer than one hour, unless they are sterilizable. Only
+                            sterilize
                             probes using liquid solutions. Avoid using autoclave, gas (EtO) or other
                             non-MEDISON-approved methods.</li>
                     </ul>
 
                     <ol class="list-decimal">
-                        <li>Follow the instructions on the disinfectant label for storage, use, and disposition of the
+                        <li>Follow the instructions on the disinfectant label for storage, use, and disposition
+                            of the
                             disinfectant.</li>
-                        <li>Mix the disinfectant compatible with your probe according to label instructions for solution
+                        <li>Mix the disinfectant compatible with your probe according to label instructions for
+                            solution
                             strength.</li>
-                        <li>Immerse the instructions on the disinfectant, rinse the probe after the immersion process is
+                        <li>Immerse the instructions on the disinfectant, rinse the probe after the immersion
+                            process is
                             complete.</li>
-                        <li>Using the instructions on the disinfectant, rinse the probe after the immersion process is
+                        <li>Using the instructions on the disinfectant, rinse the probe after the immersion
+                            process is
                             complete.</li>
                         <li>Air dry the probe or towel it dry with a clean cloth.</li>
                     </ol>
 
                     <img src="/img/88)slide 78.png" alt="" class="w-full max-w-5xl mx-auto">
 
-
+                    <a href="/files/DISINFECTED MATERIAL -76-.xlsx" class="link"><small>For more information and
+                            details ,click
+                            this file</small></a>
 
                 </div>
 
                 <div class="my-4">
-                    <h2 class="text-xl mb-4">Ultrasound Probe Movements and Manipulation from picos 101 ​​​</h2>
+                    <h2 class="text-xl mb-4">Ultrasound Probe Movements and Manipulation from picos 101 ​​​
+                    </h2>
 
                     <img src="/img/89)slide 79 cardinal transducer manipulation.png" alt=""
                         class="w-full max-w-5xl mx-auto">
@@ -853,9 +877,12 @@
                         <figure><img src="/img/90)slide 79 sliding.png" alt="Probe" />
                         </figure>
                         <div class="card-body">
-                            <p>1) Sliding is the process of moving the entire probe in one direction to find a better
-                                imaging window. This is typically used to locate the best window, to move to various
-                                regions of the human body, or to adhere to a specific structure (such as a vessel).​</p>
+                            <p>1) Sliding is the process of moving the entire probe in one direction to find a
+                                better
+                                imaging window. This is typically used to locate the best window, to move to
+                                various
+                                regions of the human body, or to adhere to a specific structure (such as a
+                                vessel).​</p>
 
                         </div>
                     </div>
@@ -865,9 +892,12 @@
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">TILTING (FANNING) the Ultrasound Probe​</h2>
-                            <p>2) Tilting the ultrasound probe entails moving the transducer from side to side along the
-                                probe's short axis. It is also known as "Fanning" informally. Tilting will allow you to
-                                see multiple cross-sectional images of an object of interest. This technique can be used
+                            <p>2) Tilting the ultrasound probe entails moving the transducer from side to side
+                                along the
+                                probe's short axis. It is also known as "Fanning" informally. Tilting will allow
+                                you to
+                                see multiple cross-sectional images of an object of interest. This technique can
+                                be used
                                 on structures such as the heart, kidney, bladder, vessels, and so on.​​</p>
 
                         </div>
@@ -877,9 +907,12 @@
                         <figure><img src="/img/92)slide 80 rotating.png" alt="Probe" />
                         </figure>
                         <div class="card-body">
-                            <p>3) Rotating the ultrasound probe is rotated by turning the transducer clockwise or
-                                anticlockwise along its central axis. The most common application of rotation is to
-                                switch between the long and short axis of a specific structure, such as a vessel, the
+                            <p>3) Rotating the ultrasound probe is rotated by turning the transducer clockwise
+                                or
+                                anticlockwise along its central axis. The most common application of rotation is
+                                to
+                                switch between the long and short axis of a specific structure, such as a
+                                vessel, the
                                 heart, or the kidney.​​</p>
 
                         </div>
@@ -889,10 +922,12 @@
                         <figure><img src="/img/93)slide 80 rocking.png" alt="Probe" />
                         </figure>
                         <div class="card-body">
-                            <p>4. Rocking the ultrasound probe entails "rocking" the ultrasound probe along the long
+                            <p>4. Rocking the ultrasound probe entails "rocking" the ultrasound probe along the
+                                long
                                 axis towards or away from the probe indicator.​
 
-                                You can help centre the area of interest by rocking. Because the image remains in-plane
+                                You can help centre the area of interest by rocking. Because the image remains
+                                in-plane
                                 throughout the manipulation, this is also known as "in-plane" motion.​​​</p>
 
                         </div>
@@ -903,9 +938,12 @@
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">COMPRESSION with the Ultrasound Probe​​</h2>
-                            <p>5. Compression with an ultrasound probe entails applying downward pressure to the probe
-                                in order to assess the compressibility of a structure or organ of interest. The most
-                                common applications are to screen for deep vein thrombosis, distinguish between artery
+                            <p>5. Compression with an ultrasound probe entails applying downward pressure to the
+                                probe
+                                in order to assess the compressibility of a structure or organ of interest. The
+                                most
+                                common applications are to screen for deep vein thrombosis, distinguish between
+                                artery
                                 and vein, and screen for appendicitis (non-compressible).​​​</p>
 
                         </div>

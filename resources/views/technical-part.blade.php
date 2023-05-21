@@ -408,10 +408,13 @@
                     <img src="img/98)slide 97 ppm 1.png" class="w-full max-w-xl mx-auto">
                     <img src="img/99)slide 97 ppm 2.png" class="w-full max-w-xl mx-auto">
                     <img src="img/100)slide 97 ppm 3.png" class="w-full max-w-xl mx-auto">
+                    <a href="/files/ULTRASOUND PPM CHECKLIST -97-.pdf" class="link"><small>For more information and
+                            details ,click
+                            this file</small></a>
                 </div>
                 <div>
                     <h2 class="text-lg my-4">ELECTRICAL SAFETY TEST CHECKLIST​​</h2>
-
+                    <img src="/img/Iec 62353.png" class="w-full max-w-xl mx-auto">
                 </div>
                 <div>
                     <h2 class="text-lg my-4">PROCESS FLOW FOR PLANNED PRERVENTIVE MAINTENANCE</h2>
@@ -832,7 +835,9 @@
                         </li>
                     </ul>
                 </div>
-                <small>For more information and details ,click this file</small>
+                <a href="/files/RIGEL 288+ EST USER MANUAL -123-.pdf" class="link"><small>For more information and
+                        details ,click
+                        this file</small></a>
                 <div class="flex">
                     <img src="img/120) slide124 rigel panel.png" class="mx-auto  w-2/3">
                     <img src="img/122)slide 124 gambal rigel est 1.png" class="mx-auto w-1/3">
@@ -870,18 +875,20 @@
                     </div>
                     <ol class="list-decimal" start="7">
                         <li>Fill in the asset details and choose the right IEC, Class of machine and Method of measuring
-                            electrical safety.​​</li>
-                        <li>Press F4 and run the test .​</li>
+                            electrical safety.​</li>
+                        <li>Press F4 and run the test .​​</li>
                     </ol>
                     <p class="text-gray-600">
-                        NOTES:IEC 60601- General requirements for safety (1977)​
-                        IEC 62353- Recurrent test and test after repair​
-                        IEC 61010-Measurement, control and laboratory use also use for Test and commissioning (T&C)​
+                        NOTES:IEC 60601- General requirements for safety (1977) and can use for Testing and Commisioning
+                        (T&C)​
+                        IEC 62353- Recurrent test and test after repair, ( Plan Preventive Maintenance and Breakdown)​
+                        IEC 61010-Measurement, control and laboratory.​
                         ​
                         Class I of Device Under Test(DUT) Ultrasound Machine.​
                         Select Direct Method as the direct method is a method of measuring electrical safety on medical
                         devices that involves placing probes directly on the conductive parts of the device to measure
-                        the electrical parameters, such as leakage current or earth resistance.
+                        the electrical parameters, such as leakage current or earth resistance.​
+
                     </p>
                 </div>
                 <div>
@@ -994,7 +1001,7 @@
                     <h2 class="text-lg mb-4">ELECTRICAL SAFETY ​</h2>
                     <p>This equipment has been verified as a Class I device with Type BF applied parts. ​</p>
 
-                    <strong class="my-3 text-error">CAUTION:</strong> ​
+                    <p class="my-3 text-error"><strong class="my-3 text-error">CAUTION:</strong> ​</p>
                     <ul class="list-disc">
                         <li>As for US requirement, the LEAKAGE CURRENT might be measured from a center-tapped circuit
                             when the
