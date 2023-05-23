@@ -10,7 +10,7 @@
         </h2>
     </x-slot>
     <div class="flex h-[calc(100vh-7.5rem)]" data-aos="fade-up">
-        <div class="w-1/3 sticky top-0 h-full bg-base-200">
+        <div class="w-1/5  sticky top-0 h-full bg-base-200">
             <ul class="menu bg-base-100 w-full">
                 <li><a class="active" href="#troubleshooting">Troubleshooting</a></li>
                 <li><a href="#maintenance">Maintenance</a></li>
@@ -19,7 +19,7 @@
             </ul>
         </div>
         <div id="main-section"
-            class="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
+            class="w-2/4 flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-primary scrollbar-track-white">
             <section class="p-10" id="troubleshooting">
                 <h1 class="uppercase text-3xl mb-5 text-primary">Troubleshooting</h1>
 
@@ -71,7 +71,7 @@
                     </div>
                 </div>
 
-                <div class="alert alert-warning shadow-lg my-4">
+                <div class="alert alert-warning shadow-lg mt-12 mb-8">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6"
                             fill="none" viewBox="0 0 24 24">
@@ -113,7 +113,7 @@
                     </div>
                 </div>
 
-                <div class="alert alert-warning shadow-lg my-4">
+                <div class="alert alert-warning shadow-lg mt-12 mb-8">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6"
                             fill="none" viewBox="0 0 24 24">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="alert alert-warning shadow-lg my-4">
+                <div class="alert alert-warning shadow-lg mt-12 mb-8">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6"
                             fill="none" viewBox="0 0 24 24">
@@ -226,32 +226,37 @@
 
                         </div>
                     </div>
-                    <div class="my-5">
-                        <h2 class="text-lg">Causes and corrective actions​</h2>
+                    <div class="mt-12">
+                        <h2 class="text-2xl text-secondary mb-5">Causes and corrective actions​</h2>
 
-                        <table class="table w-full">
+                        <table class="table border-gray-800 table-auto border w-full">
                             <thead>
                                 <tr>
-                                    <th>Problems</th>
-                                    <th>What to do</th>
+                                    <th class="border-r border-b border-gray-800">Problems</th>
+                                    <th class="border-r border-b border-gray-800">What to do</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>The system cannot be turned ON.</td>
-                                    <td>Confirm that the power cable is connected to the outlet correctly.​ <br>
+                                    <td class="border-r border-gray-800">The system cannot be turned ON.</td>
+                                    <td class="border-b border-gray-800">Confirm that the power cable is connected to
+                                        the outlet correctly.​ <br>
 
                                         Check the main switch.​</td>
                                 </tr>
                                 <tr>
-                                    <td>The system can be turned ON, <br>but no images are displayed.</td>
-                                    <td>Adjust the "CONTRAST, "BRIGHTNESS" buttons on the monitor. ​ <br>
+                                    <td class="border-r border-gray-800">The system can be turned ON, <br>but no images
+                                        are displayed.</td>
+                                    <td class="border-b border-gray-800">Adjust the "CONTRAST, "BRIGHTNESS" buttons on
+                                        the monitor. ​ <br>
 
                                         Check whether the equipment is in external video signal input mode.​</td>
                                 </tr>
                                 <tr>
-                                    <td>Characters are displayed <br>but no images are displayed.</td>
-                                    <td>Confirm that the ACOUSTIC POWER dial, GAIN dial, and STC slide
+                                    <td class="border-r border-gray-800">Characters are displayed <br>but no images are
+                                        displayed.</td>
+                                    <td class="border-b border-gray-800">Confirm that the ACOUSTIC POWER dial, GAIN
+                                        dial, and STC slide
                                         <br>control are
                                         set
                                         to their max in positions.If still no images are displayed, confirm
@@ -264,10 +269,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>An error dialog (error message) is <br> displayed and the operation is
+                                    <td class="border-r border-gray-800">An error dialog (error message) is <br>
+                                        displayed and the operation is
                                         disabled.
                                     </td>
-                                    <td>Turn the power of the system OFF and then ON "PowerON/OFF”.​
+                                    <td class="border-b border-gray-800">Turn the power of the system OFF and then ON
+                                        "PowerON/OFF”.​
 
                                         ​</td>
                                 </tr>
@@ -277,14 +284,14 @@
                     </div>
                 </div>
             </section>
-            <section class="p-10" id="maintenance">
+            <section class="p-10 bg-base-200" id="maintenance">
                 <h1 class="uppercase text-3xl mb-5 text-primary">USER MAINTENANCE​</h1>
-                <h2 class="text-xl mb-4">Fuse Replacement​</h2>
+                <h2 class="text-2xl mb-4">Fuse Replacement​</h2>
                 <p>The power protection fuse protects the product from excess current. If the power monitoring
                     protection circuit detects excess current, it shuts off the current to the equipment in order to
                     prevent overheating and to restrict the ultrasound power output</p>
-                <img src="img/94)slide 89 user maintenance.png">
-                <ul class="list-decimal">
+                <img src="img/94)slide 89 user maintenance.png" class="my-5">
+                <ul class="list-decimal leading-7 mt-5">
                     <li>Set this to off by pressing the power switch (See ①).​
                     </li>
                     <li>Disconnect the power cord from the wall outlet.​</li>
@@ -293,13 +300,14 @@
                     <li>Fit the new fuse into the fuse holder, and press the fuse in to complete replacing the fuse.​
                     </li>
                 </ul>
-                <h2 class="text-xl my-4">Cleaning The Air Filters​​</h2>
+                <h2 class="text-2xl mb-4 mt-12">Cleaning The Air Filters​​</h2>
                 <p>The air filters minimize the in draft of dust. Clean the air filter to ensure that a clogged filter
                     does not cause the system to overheat and reduce the noise and the system performance. ​</p>
                 <p>It is recommended the air filters be cleaned once every three months.</p>
-                <img src="img/95)slide 91 filter 1.png">
-                <div class="flex items-center"> <img src="img/96)slide 91 silter 2.png">
-                    <ul class="list-decimal">
+                <img src="img/95)slide 91 filter 1.png" class="my-5">
+                <div class="flex items-center bg-base-100 rounded">
+                    <img src="img/96)slide 91 silter 2.png">
+                    <ul class="list-decimal leading-7 text-xl">
                         <li>Pull the flter under the front of the console to away from the product.
                         </li>
                         <li>Shake the flter to remove the dust and wash in a mild soapy solution.​</li>
@@ -309,13 +317,13 @@
                         </li>
                     </ul>
                 </div>
-                <h2 class="text-xl my-4">Routine maintenance inspection​​</h2>
-                <p>Preventive Maintenance Performed by User</p>
-                <ul class="list-decimal">
-                    <li class="py-2">Cleaning the transducer​<br>
+                <h2 class="text-2xl mb-4 mt-12">Routine maintenance inspection​​</h2>
+                <p class="py-2">Preventive Maintenance Performed by User</p>
+                <ul class="list-decimal leading-7">
+                    <li><strong>Cleaning the transducer​</strong><br>
                         Clean, disinfect,and sterilize the transducer referring to the operation manual provided with
                         the transducer.</li>
-                    <li class="py-2">Cleaning the transducer holder and gel holder​
+                    <li><strong>Cleaning the transducer holder and gel holder​</strong>
                         ​<br>
                         • The transducer holder and gel holder are removable. In some cases, when the gel bottle is
                         removed from the gel holder, the gel holder may be inadvertently removed along with the gel
@@ -326,7 +334,7 @@
                         (b)If it is difficult to remove stains, wipe of stain using a soft cloth ​<br>
                         with mild detergent and then lightly wrung out. ​
                     </li>
-                    <li class="py-2">Cleaning the transducer connector​
+                    <li><strong>Cleaning the transducer connector​</strong>
 
                         ​​<br>
 
@@ -336,7 +344,7 @@
 
                         (b) If It is difficult to remove stains,wipe on stains using a soft cloth moistened with water
                         and then tightly wrung out​</li>
-                    <li class="py-2">Clean the reference signal cable regularly.​
+                    <li><strong>Clean the reference signal cable regularly.</strong>​
 
                         ​<br>
 
@@ -346,12 +354,12 @@
                         ​<br>
 
                         (b) Wipe the referer noe signal cable with dry cloth and dry it well.</li>
-                    <li class="py-2">Cleaning the LCD monitor​​<br>
+                    <li><strong>Cleaning the LCD monitor</strong>​​<br>
                         Use a dean,soft cloth to clean the LCD surface.​
                         ​​<br>
-                        (a) Monitor cover​​<br>​<br>
+                        (a) Monitor cover​​<br>​
                         • Clean the monitor cover using a soft cloth moistened with mild detergent.<br>
-                        (b) LCD surface​<br>​<br>
+                        (b) LCD surface​<br>​
                         • Use a soft cotton cloth or lens cleaning paper to clean the LCD surface.<br>
                         • Do not hit or apply strong pressure to the LCD surface.​<br>
 
@@ -360,8 +368,8 @@
                         moistened with water and thenwipe it with a soft,dry cloth.​
                     </li>
                 </ul>
-                <h2 class="text-xl my-4">Cleanliness and decontamination awareness</h2>
-                <ul class="list-decimal">
+                <h2 class="text-xl mb-4 mt-12">Cleanliness and decontamination awareness</h2>
+                <ul class="list-decimal leading-7">
                     <li>Clean the transducer with warm water. Swipe the surface with mild cloth. Disinfect the
                         transducer using chemical liquid germicides. Do not use methanol, ethanol, isopropanol or any
                         alcohol based product, mineral oil, iodine, lotions, lanolin, aloe Vera, olive oil, methyl or
@@ -382,13 +390,15 @@
             <section class="p-10" id="type-of-maintenance">
                 <h1 class="uppercase text-3xl mb-5 text-primary">TYPES OF MAINTENANCE​​</h1>
                 <img src="img/97)slide 95 type of maintenance.png" class="mx-auto">
-                <div>
-                    <h2 class="text-lg my-4">PLAN PREVENTIVE MAINTAINANCE</h2>
-                    <p class="py-2">Planned preventative maintenance (PPM), also commonly referred to as planned
+                <div class="text-justify">
+                    <h2 class="text-2xl mb-4 mt-12">PLAN PREVENTIVE MAINTAINANCE</h2>
+                    <p class="text-justify">Planned preventative maintenance (PPM), also commonly referred to as
+                        planned
                         maintenance or
                         scheduled maintenance, is essentially a scheduled maintenance routine for the assets across an
                         estate. Tasks are scheduled ahead of time, while assets are still in functioning order.​</p>
-                    <p class="py-2">The technician or engineer needs to follow the PPM checklist, which involves
+                    <p class="text-justify">The technician or engineer needs to follow the PPM checklist, which
+                        involves
                         multiple tasks for
                         ensuring the ultrasound machine is in good condition.​<br>
 
@@ -403,50 +413,55 @@
 
                         Lastly, the machine must undergo an electrical safety test (EST) using an EST tester to ensure
                         that it is safe to use.​​</p>
-                    <p class="py-2">Planned Preventive Maintenanc(PPM) is essential for ensuring equipment and
+                    <p class="text-justify">Planned Preventive Maintenanc(PPM) is essential for ensuring equipment and
                         systems are in good
                         working order, reducing downtime, improving reliability, and ensuring safety and compliance.​
                     </p>
                 </div>
                 <div>
-                    <h2 class="text-lg my-4">PLAN PREVENTIVE MAINTAINANCE CHECKLIST​</h2>
-                    <img src="img/98)slide 97 ppm 1.png" class="w-full max-w-xl mx-auto">
-                    <img src="img/99)slide 97 ppm 2.png" class="w-full max-w-xl mx-auto">
-                    <img src="img/100)slide 97 ppm 3.png" class="w-full max-w-xl mx-auto">
+                    <h2 class="text-2xl mb-4 mt-12">PLAN PREVENTIVE MAINTENANCE CHECKLIST​</h2>
+                    <div class="grid grid-cols-3">
+                        <a href="img/98)slide 97 ppm 1.png" data-fslight="maintenance"><img
+                                src="img/98)slide 97 ppm 1.png" class="w-full max-w-xl mx-auto"></a>
+                        <a href="img/98)slide 97 ppm 1.png" data-fslight="maintenance"><img
+                                src="img/99)slide 97 ppm 2.png" class="w-full max-w-xl mx-auto"></a>
+                        <a href="img/98)slide 97 ppm 1.png" data-fslight="maintenance"><img
+                                src="img/100)slide 97 ppm 3.png" class="w-full max-w-xl mx-auto"></a>
+                    </div>
                     <a href="/files/ULTRASOUND PPM CHECKLIST -97-.pdf" class="link"><small>For more information and
                             details ,click
                             this file</small></a>
                 </div>
                 <div>
-                    <h2 class="text-lg my-4">ELECTRICAL SAFETY TEST CHECKLIST​​</h2>
+                    <h2 class="text-2xl mb-4 mt-12">ELECTRICAL SAFETY TEST CHECKLIST​​</h2>
                     <img src="/img/Iec 62353.png" class="w-full max-w-xl mx-auto">
                 </div>
                 <div>
-                    <h2 class="text-lg my-4">PROCESS FLOW FOR PLANNED PRERVENTIVE MAINTENANCE</h2>
-                    <img src="img/101)slide 99.png" class="w-full max-w-xl mx-auto">
+                    <h2 class="text-2xl mb-4 mt-12">PROCESS FLOW FOR PLANNED PRERVENTIVE MAINTENANCE</h2>
+                    <img src="img/101)slide 99.png" class="w-full max-w-md mx-auto">
                 </div>
                 <div>
-                    <h2 class="text-lg my-4">The purpose of conducting Electrical Safety Tests (EST)</h2>
-                    <p>
+                    <h2 class="text-2xl mb-4 mt-12">The purpose of conducting Electrical Safety Tests (EST)</h2>
+                    <p class="text-justify">
                         Any product that uses electricity (directly or indirectly) must undergo electrical safety
                         testing to ensure safe operating standards. IEC 60601 is a set of technical specifications for
                         the security and fundamental functionality of medical electrical equipment that were released by
                         the International Electrotechnical Commission.​</p>
 
                     <ul class="my-2">
-                        <li class="py-2">Ensure Patient Safety ​<ul>
+                        <li>Ensure Patient Safety ​<ul>
                                 <li>-Protect against macroshock​</li>
 
                                 <li>-Protect against microshock​</li>
                             </ul>
                         </li>
 
-                        <li class="py-2">Test for electrical internal brekadown/ damage to power cord, AC mains
+                        <li>Test for electrical internal brekadown/ damage to power cord, AC mains
                             feed,etc​
 
-                        <li class="py-2">Meet codes & standards​
+                        <li>Meet codes & standards​
 
-                        <li class="py-2">Protect against legal liability​
+                        <li>Protect against legal liability​
 
                             <ul>
                                 <li>-In case of patient incident</li>
@@ -455,24 +470,29 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="text-lg my-4">ELECTRIC SHOCK</h2>
+                    <h2 class="text-xl mt-12 mb-5">ELECTRIC SHOCK</h2>
                     <p class="font-bold mb-4">MACROSHOCK​</p>
-                    An electric current passing through the body when contact is made between skin and electrical
-                    source( non-invasive).​ ​<br>
-                    This aspect of all electrical safety applies to macro-shock, which happens when current enters the
-                    body through skin contact. ​<br>
-                    However, dry skin on the outside of the body has a high resistance, which restricts current flow
-                    through the body. In many medical procedures, such as ultrasound gel and surgical applicants, the
-                    skin is moistened, which significantly reduces skin resistance. Additionally, medical electrical
-                    (ME) equipment is frequently in direct and indirect physical contact with patients at all times,
-                    such as with electrically powered beds and monitoring systems. Macro-shock results in ventricular
-                    fibrillation at currents of about 100mA and loss of voluntary muscle control at currents as low as
-                    10mA.​
+                    <p class="text-justify"> An electric current passing through the body when contact is made between
+                        skin and electrical
+                        source( non-invasive).​ ​<br>
+                        This aspect of all electrical safety applies to macro-shock, which happens when current enters
+                        the
+                        body through skin contact. ​<br>
+                        However, dry skin on the outside of the body has a high resistance, which restricts current flow
+                        through the body. In many medical procedures, such as ultrasound gel and surgical applicants,
+                        the
+                        skin is moistened, which significantly reduces skin resistance. Additionally, medical electrical
+                        (ME) equipment is frequently in direct and indirect physical contact with patients at all times,
+                        such as with electrically powered beds and monitoring systems. Macro-shock results in
+                        ventricular
+                        fibrillation at currents of about 100mA and loss of voluntary muscle control at currents as low
+                        as
+                        10mA.​
                     </p>
                     <img src="img/102)slide 101 macroshock.png" class="w-full max-w-xl mx-auto my-4">
                 </div>
                 <div>
-                    <p class="font-bold mb-4">MICROSHOCK</p>
+                    <p class="font-bold mt-12 mb-4">MICROSHOCK</p>
                     An electric current following directly through the heart( invasive).​<br>
 
                     When invasive patient connections are placed directly across or near myocardial tissue, and blood
@@ -487,8 +507,8 @@
                 </div>
                 <img src="img/103)slide 103.png" class="w-full max-w-xl mx-auto my-4">
                 <div>
-                    <h2 class="text-lg my-4">International Electrotechnical Commission (IEC)</h2>
-                    <ul>
+                    <h2 class="text-xl mt-12 mb-4">International Electrotechnical Commission (IEC)</h2>
+                    <ul class="leading-7">
                         <li>IEC 60601, IEC 62353, and IEC 61010 are all international standards that are related to the
                             safety and performance of electrical equipment used in medical settings.</li>
                         <li><span class="font-bold">IEC 60601</span>: This is a series of standards that specify safety
@@ -516,10 +536,10 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="text-lg my-5">Input Protection Classification ​
+                    <h2 class="text-xl mt-12 mb-4">Input Protection Classification ​
                         ME Class- Means of Operator Protection (MOOP)​
                         ​</h2>
-                    <ul>
+                    <ul class="mt-10">
                         <li><span class="font-bold">Class I</span>—Live part covered by basic insulation and protective
                             earth​​</li>
                     </ul>
@@ -534,7 +554,7 @@
                         <li>3-prong power cord​</li>
                     </ul>
                     </p>
-                    <div class="grid grid-cols-3 my-3">
+                    <div class="grid grid-cols-3 mb-4">
                         <div class=" text-center "><img src="img/104)slide 106 protective earth.png"
                                 class="mx-auto h-12">
                             <p>Protective
@@ -550,7 +570,7 @@
                             <p>Earth ​reference ​ point​</p>
                         </div>
                     </div>
-                    <ul>
+                    <ul class="mt-10">
                         <li><span class="font-bold">Class II</span>—Live part covered by double or reinforced
                             insulation​​</li>
                     </ul>
@@ -565,17 +585,17 @@
                         <li>2-prong power cord​​</li>
                     </ul>
                     </p>
-                    <div class="grid grid-cols-3 my-3">
+                    <div class="grid grid-cols-3 mb-4">
                         <div class=" text-center "><img src="img/107)slide 107 class II.png" class="mx-auto h-12">
                             <p>Class II​</p>
                         </div>
 
                     </div>
-                    <ul>
+                    <ul class="mt-10">
                         <li><span class="font-bold">Class III/IP ( internal power)</span>—Internal power supply​​​</li>
                     </ul>
                     <p>
-                    <ul class="list-inside list-disc">
+                    <ul class="list-inside list-disc leading-7 ">
                         <li>Protection relies on the fact that no voltage than safety extra low voltage (SELV) are
                             present​​​</li>
                         <li>SELV is defined in turn in the relevant standard as a voltage not exceeding 25V ac or 60V
@@ -586,11 +606,11 @@
                     </ul>
                     </p>
                 </div>
-                <div>
-                    <h2 class="text-lg my-5">OUTPUT PROTECTION CLASSIFICATION​ Applied Parts-Means of Patient
+                <div class=" mt-12">
+                    <h2 class="text-xl mb-4">OUTPUT PROTECTION CLASSIFICATION​ Applied Parts-Means of Patient
                         Protection(MOPP)​​
                         ​</h2>
-                    <ul>
+                    <ul class="mt-10">
                         <li><span class="font-bold">Type B(Body)</span>—Patient applied part earthed​​​</li>
                     </ul>
                     <p>
@@ -601,7 +621,7 @@
                             earth referenced. Type B are those parts not suitable for direct cardiac application.​​</li>
                     </ul>
                     </p>
-                    <div class="grid grid-cols-3 my-3">
+                    <div class="grid grid-cols-3 mb-4">
                         <div class=" text-center "><img src="img/108)slide 110 type B.png" class="mx-auto h-12">
                             <p>Type B applied part​</p>
                         </div>
@@ -612,19 +632,19 @@
                                 applied part​​</p>
                         </div>
                     </div>
-                    <ul>
+                    <ul class="mt-10">
                         <li><span class="font-bold">Type BF(Body Floating)</span>—Patient applied part floating
                             (surface conductor)​
                         </li>
                     </ul>
                     <p>Non-invasive .Patient circuit floating type Defibrillator paddle, SPO2 probe.​
-                    <ul class="list-inside list-disc">
+                    <ul class="list-inside list-disc leading-7">
                         <li>Type BF applied part - F-Type applied part complying with a higher degree of protection
                             against electric shock than type B applied parts. Type BF applied parts are those parts not
                             suitable for direct cardiac application.​​​</li>
                     </ul>
                     </p>
-                    <div class="grid grid-cols-3 my-3">
+                    <div class="grid grid-cols-3 mb-4">
                         <div class=" text-center "><img src="img/110) slide 111 type BF.png" class="mx-auto h-12">
                             <p>Type BF applied part​​</p>
                         </div>
@@ -634,19 +654,19 @@
                         </div>
 
                     </div>
-                    <ul>
+                    <ul class="mt-10">
                         <li><span class="font-bold">Type CF-Cardiac</span>—Patient applied part floating for use in
                             direct contact with the heart​​​​​</li>
                     </ul>
                     <p>
-                    <ul class="list-inside list-disc">
+                    <ul class="list-inside list-disc leading-7">
                         <li>Patient circuit floating type ECG module, Infusion Device(CF)​​</li>
                         <li>Type CF applied part - F-Type applied part complying with the highest degree of protection
                             against electric shock. Type CF applied parts are those parts suitable for direct cardiac
                             application​​​</li>
                     </ul>
                     </p>
-                    <div class="grid grid-cols-3 my-3">
+                    <div class="grid grid-cols-3 mb-4">
                         <div class=" text-center "><img src="img/112)slide 112 type CF applied part.png"
                                 class="mx-auto h-12">
                             <p>​​Type CF ​applied part​</p>
@@ -658,13 +678,13 @@
 
                     </div>
                 </div>
-                <div>
-                    <h2 class="text-lg mt-5 mb-4">The IEC 62353 specifies three different ​
+                <div class=" mt-12">
+                    <h2 class="text-xl  mb-4">The IEC 62353 specifies three different ​
                         methods for measuring the equipment leakage ​
                         current:</h2>
                     <div>
-                        <h3 class="font-bold my-4">Direct method</h3>
-                        <ul class="list-disc">
+                        <h3 class="font-bold mt-10">Direct method</h3>
+                        <ul class="list-disc leading-7">
                             <li>The direct method is a method of measuring the electrical safety of
                                 medical
                                 devices by
@@ -685,8 +705,8 @@
                         </ul>
                     </div>
                     <div>
-                        <h3 class="font-bold my-4">Alternative method​</h3>
-                        <ul class="list-disc">
+                        <h3 class="font-bold  mt-10">Alternative method​</h3>
+                        <ul class="list-disc leading-7">
                             <li>The alternative method is one of the methods specified in the International
                                 Electrotechnical Commission (IEC) 62353 standard for testing the electrical safety of
                                 medical electrical equipment. This method is also known as the "substitute leakage
@@ -709,9 +729,9 @@
                         </ul>
                     </div>
                     <div>
-                        <h3 class="font-bold my-4">Differential method​
+                        <h3 class="font-bold  mt-10">Differential method​
                             ​​</h3>
-                        <ul class="list-disc">
+                        <ul class="list-disc leading-7">
                             <li>The differential method is a method of measuring the electrical safety of medical
                                 devices that is specified in the International Electrotechnical Commission (IEC) 62353
                                 standard. This method is also known as the "two-point" method.​​​</li>
@@ -733,9 +753,9 @@
                         </ul>
                     </div>
                 </div>
-                <h2 class="text-lg mb-4 mt-5">LEAKAGE CURRENT​</h2>
-                <h3>IEC 60601 defines leakage current of three different sources:​</h3>
-                <ul class="list-disc">
+                <h2 class="text-xl mt-12 mb-4">LEAKAGE CURRENT​</h2>
+                <h3 class="py-2">IEC 60601 defines leakage current of three different sources:​</h3>
+                <ul class="list-disc leading-7">
                     <li>Earth Leakage: current following down the protective Earth conductor of the mains inlet lead.
                     </li>
                     <li>Enclosure Leakage: current flowing the Earth through a person by touching the medical
@@ -744,7 +764,7 @@
                         or current flowing from a person to Earth via the Applied Part by applying unintended voltage
                         from external sources.</li>
                 </ul>
-                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-4">
+                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl mb-5 mt-12">
                     <figure><img src="/img/114)slide 118 earth leakage current.png" alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Earth Leakage Current</h2>
@@ -757,7 +777,7 @@
 
                     </div>
                 </div>
-                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-4">
+                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-5">
                     <figure><img src="/img/115)slide 119 enclosure leakage current.png" alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Enclosure Leakage Current​</h2>
@@ -770,7 +790,7 @@
 
                     </div>
                 </div>
-                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-4">
+                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-5">
                     <figure><img src="/img/116)slide 120 patient leakage type F.png" alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Patient Leakage F-type​</h2>
@@ -786,7 +806,7 @@
 
                     </div>
                 </div>
-                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-4">
+                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-5">
                     <figure><img src="/img/117)slide 121 pt leakage current.png" alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Patient Leakage Current​</h2>
@@ -801,7 +821,7 @@
 
                     </div>
                 </div>
-                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-4">
+                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-5">
                     <figure><img src="/img/118)slide 122 pt auxilary current.png" alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Patient Auxiliary Current​
@@ -821,10 +841,10 @@
                     </div>
                 </div>
 
-                <h2 class="text-lg mb-4 mt-5">Rigel 288+ Electrical Safety Test(EST)​​</h2>
+                <h2 class="text-2xl mb-4 mt-12">Rigel 288+ Electrical Safety Test(EST)​​</h2>
                 <div class="items-center flex">
                     <img src="img/119)Rigel EST.png" class="w-1/3">
-                    <ul class="list-disc">
+                    <ul class="list-disc leading-7">
                         <li>An electrical safety analyzer is a specialized test instrument used to measure the
                             electrical
                             safety of medical electrical equipment. It is designed to perform a variety of electrical
@@ -843,63 +863,81 @@
                 <a href="/files/RIGEL 288+ EST USER MANUAL -123-.pdf" class="link"><small>For more information and
                         details ,click
                         this file</small></a>
-                <div class="flex">
-                    <img src="img/120) slide124 rigel panel.png" class="mx-auto  w-2/3">
-                    <img src="img/122)slide 124 gambal rigel est 1.png" class="mx-auto w-1/3">
+                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-5">
+                    <div class="card-body">
+                        <div class="flex mt-12 gap-4">
+                            <img src="img/120) slide124 rigel panel.png" class="mx-auto  w-2/3">
+                            <img src="img/122)slide 124 gambal rigel est 1.png" class="mx-auto w-1/3">
+                        </div>
+                    </div>
                 </div>
-                <div class="flex">
-                    <img src="img/121)slide 124 rigel panel 2.png" class="mx-auto w-2/3">
-                    <img src="img/123)slide 124 gambar rigel set 2.png" class="mx-auto w-1/3">
+                <div class="card card-side flex-row-reverse bg-base-100 shadow-xl my-5">
+                    <div class="card-body">
+                        <div class="flex mt-12 gap-4">
+                            <img src="img/121)slide 124 rigel panel 2.png" class="mx-auto w-2/3">
+                            <img src="img/123)slide 124 gambar rigel set 2.png" class="mx-auto w-1/3">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="mt-5">
-                    <h2 class="text-lg">Prepare the EST for Ultrasound SonoAce R7 setup​</h2>
+                <div class="mt-12">
+                    <h2 class="text-2xl">Prepare the EST for Ultrasound SonoAce R7 setup​</h2>
                     <div class="flex my-4">
                         <img src="img/124)slide 125 setup est 1.png" class="w-1/3">
                         <img src="img/125)slide 125 setup est 2.png" class="w-2/3">
                     </div>
-                    <ol class="list-decimal">
-                        <li>Set up the ultrasound machine SonoAce R7 with the Electrical Safety Test Rigel 288+​</li>
+                    <ol class="list-decimal leading-7">
+                        <li>Set up the ultrasound machine SonoAce R7 with the Electrical Safety Test Rigel 288+​
+                        </li>
                         <li>Plug in and switch on the main power plug of EST​​</li>
                         <li>Connect the main plug of ultrasound SonoAce R7 to the DUT socket.​​</li>
-                        <li>Connect apply part adaptor box to the patient applied part adaptor connection box.​​</li>
+                        <li>Connect apply part adaptor box to the patient applied part adaptor connection box.​​
+                        </li>
                     </ol>
                     <div class="flex my-4">
                         <img src="img/126)slide 126 setup est 3.png" class="w-1/2">
                         <img src="img/127)slide 126 setup est 4.png" class="w-1/2">
                     </div>
-                    <ol class="list-decimal" start="5">
-                        <li>Connect the earth bond probe socket form the EST to the grounding part of the device under
+                    <ol class="list-decimal leading-7" start="5">
+                        <li>Connect the earth bond probe socket form the EST to the grounding part of the device
+                            under
                             test(DUT).​​</li>
-                        <li>Connect one wire from applied part adapter box and clip to the applied part of the device
+                        <li>Connect one wire from applied part adapter box and clip to the applied part of the
+                            device
                             under test( DUT)make sure to wrap the applied part with aluminium foil. ​​​</li>
                     </ol>
                     <div class="flex my-4">
                         <img src="img/128)slide 127 setup est 5.png" class="w-1/3">
                         <img src="img/129)slide 127 setup est 6.png" class="w-2/3">
                     </div>
-                    <ol class="list-decimal" start="7">
-                        <li>Fill in the asset details and choose the right IEC, Class of machine and Method of measuring
+                    <ol class="list-decimal leading-7" start="7">
+                        <li>Fill in the asset details and choose the right IEC, Class of machine and Method of
+                            measuring
                             electrical safety.​</li>
                         <li>Press F4 and run the test .​​</li>
                     </ol>
-                    <p class="text-gray-600">
-                        NOTES:IEC 60601- General requirements for safety (1977) and can use for Testing and Commisioning
+                    <p class="text-gray-600 rounded bg-warning p-4">
+                        NOTES:IEC 60601- General requirements for safety (1977) and can use for Testing and
+                        Commisioning
                         (T&C)​
-                        IEC 62353- Recurrent test and test after repair, ( Plan Preventive Maintenance and Breakdown)​
+                        IEC 62353- Recurrent test and test after repair, ( Plan Preventive Maintenance and
+                        Breakdown)​
                         IEC 61010-Measurement, control and laboratory.​
                         ​
                         Class I of Device Under Test(DUT) Ultrasound Machine.​
-                        Select Direct Method as the direct method is a method of measuring electrical safety on medical
-                        devices that involves placing probes directly on the conductive parts of the device to measure
+                        Select Direct Method as the direct method is a method of measuring electrical safety on
+                        medical
+                        devices that involves placing probes directly on the conductive parts of the device to
+                        measure
                         the electrical parameters, such as leakage current or earth resistance.​
 
                     </p>
                 </div>
                 <div>
-                    <h2 class="text-lg mb-4 mt-5">Electrical ​ Safety Test ​ Result</h2>
-                    <p class="text-gray-600">
-                        Note:According to the International Electrotechnical Commission's (IEC) standard for electrical
+                    <h2 class="text-2xl mb-4 mt-12">Electrical ​ Safety Test ​ Result</h2>
+                    <p class="text-gray-600 rounded bg-warning p-4">
+                        NOTES:According to the International Electrotechnical Commission's (IEC) standard for
+                        electrical
                         safety testing (IEC 62353), the earth resistance of medical electrical equipment should not
                         exceed 0.3 ohm. This is because a high earth resistance can result in a potential difference
                         between the equipment and the ground, which can lead to electric shock or other hazardous
@@ -946,8 +984,8 @@
                     </div>
 
                     <div>
-                        <h2 class="text-lg mb-4 mt-5">POTENTIAL HAZARD</h2>
-                        <ol class="list-decimal">
+                        <h2 class="text-2xl mb-4 mt-12">POTENTIAL HAZARD</h2>
+                        <ol class="list-decimal leading-7">
                             <li>Patient/user infection due to contaminated equipment.</li>
                             <li>Electrical micro shock to patient.</li>
                             <li>Patient injury or tissue damage from ultrasound radiation.</li>
@@ -957,7 +995,7 @@
                     </div>
 
             </section>
-            <section class="p-10" id="safety">
+            <section class="p-10 bg-base-200" id="safety">
                 <h1 class="uppercase text-3xl mb-5 text-primary">SAFETY AND SYMBOL​</h1>
                 <p>The International Electro Technical Commission (IEC) has established a set of symbols for medical
                     electronic ​
@@ -966,22 +1004,22 @@
                     are ​
 
                     shown below.</p>
-                <img src="img/139)slide 131 safety and symbol 1.png" class="w-full max-w-xl mx-auto">
-                <img src="img/140)slide 131 safety and symbol 2.png" class="w-full max-w-xl mx-auto">
+                <img src="img/139)slide 131 safety and symbol 1.png" class="w-full max-w-xl mx-auto my-5">
+                <img src="img/140)slide 131 safety and symbol 2.png" class="w-full max-w-xl mx-auto  my-5">
                 <p class="my-4">Labels​<br>To protect the system, you may see ‘Warning’ or ‘Caution’ marked on the
                     surface of the product.​</p>
-                <img src="img/141)slide 132 label and warning 1.png" class="w-full max-w-xl mx-auto">
-                <img src="img/142)slide 132 symbol manufacture.png" class="w-full max-w-xl mx-auto">
-                <img src="img/143)slide 132 label and warning 2.png" class="w-full max-w-xl mx-auto">
+                <img src="img/141)slide 132 label and warning 1.png" class="w-full max-w-xl mx-auto  my-5">
+                <img src="img/142)slide 132 symbol manufacture.png" class="w-full max-w-xl mx-auto  my-5">
+                <img src="img/143)slide 132 label and warning 2.png" class="w-full max-w-xl mx-auto  my-5">
                 <img src="img/144)slide 133 label and warning 3.png" class="w-full max-w-xl mx-auto mt-4">
                 <p class="text-center mb-4">Safety note for “TIP-OVER” Precaution​</p>
                 <img src="img/145) slide 133 label and warning 4.png" class="w-full max-w-[8rem] mx-auto">
                 <p class="text-center"> Prohibition of seating on Control panel​</p>
 
-                <div class="my-5">
-                    <h2 class="text-lg mb-4">Safety precautions in operating equipment</h2>
+                <div class="mt-12">
+                    <h2 class="text-2xl mb-4">Safety precautions in operating equipment</h2>
                     <p class="mb-3">Before turning ON the power, perform the following checks:</p>
-                    <ol class="list-decimal">
+                    <ol class="list-decimal leading-7 p-4 bg-base-100 rounded list-inside">
                         <li>The temperature, humidity, and atmospheric pressure should meet the conditions of use.</li>
                         <li>There should be no condensation.</li>
                         <li>There should be no deformation, damage, or stains to the system and peripheral units.</li>
@@ -994,7 +1032,7 @@
                         <li>There should be no obstacles near the movable sections and air filter of the system.</li>
                     </ol>
                     <p class="my-4">After turning ON the power,​</p>
-                    <ol class="list-decimal">
+                    <ol class="list-decimal leading-7 p-4 bg-base-100 rounded list-inside">
                         <li>There should be no abnormal sound, unusual smells, or overheating.</li>
                         <li>No error message is displayed.</li>
                         <li>There should be no obviously abnormal noise, discontinuous display, or dark areas.</li>
@@ -1002,8 +1040,8 @@
                         <li>Switches and knobs on the panel should function normally.</li>
                     </ol>
                 </div>
-                <div class="my-5">
-                    <h2 class="text-lg mb-4">ELECTRICAL SAFETY ​</h2>
+                <div class="mt-12">
+                    <h2 class="text-xl mb-4">ELECTRICAL SAFETY ​</h2>
                     <p>This equipment has been verified as a Class I device with Type BF applied parts. ​</p>
 
                     <p class="my-3 text-error"><strong class="my-3 text-error">CAUTION:</strong> ​</p>
@@ -1023,9 +1061,11 @@
                         is consistent equipotential bonding. Medical equipment is connected with connecting leads
                         made up of angled sockets to the equipotential bonding network in medical rooms.​
                     </ul>
-                    <img src="img/146)slide 135 electrical safety 1.png" class="w-full max-w-xl mx-auto">
+                    <div class="bg-base-100 rounded p-4 my-5">
+                        <img src="img/146)slide 135 electrical safety 1.png" class="w-full max-w-xl mx-auto">
+                    </div>
                     <p class="my-3 text-error"><strong>WARNING: </strong></p>
-                    <ul>
+                    <ul class="list-disc leading-7">
                         <li>Electric shock may exist if this system, including all of its externally mounted recording
                             and monitoring devices, is not properly grounded.</li>
                         <li>Do not remove the covers on the system; hazardous voltages are present inside. Cabinet
@@ -1044,7 +1084,7 @@
                             equipment may result in burns to the patient.</li>
                     </ul>
                     <p class="my-3 text-error"><strong>CAUTION: </strong></p>
-                    <ul>
+                    <ul class="list-disc leading-7">
                         <li>The system has been designed for 100-120VAC and 200-240VAC; you should select the input
                             voltage of the printer and VCR. Prior to connecting a peripheral power cord, verify that the
                             voltage indicated on the power cord matches the voltage rating of the peripheral device.
@@ -1062,7 +1102,7 @@
                             leakage current.</li>
                     </ul>
                 </div>
-                <div class="my-5">
+                <div class="mt-12">
                     <h2 class="text-lg">MECHANICAL SAFETY​</h2>
                     <h3 class="mb-4">Moving the Equipment​<h3>
                             <p>Before transporting the product, check that the brakes on the front, back wheels or
@@ -1103,7 +1143,7 @@
                             <p>Safety Note​</p>
 
                             <p class="my-3 text-error"><strong>CAUTION: </strong></p>
-                            <ul class="list-disc">
+                            <ul class="list-disc leading-7">
                                 <li>Do not press the control panel excessively.</li>
                                 <li>Never attempt to modify the product in any way.</li>
                                 <li>Check the operational safety when using the product after a prolonged break in
@@ -1123,7 +1163,7 @@
                                         class="text-primary-focus font-bold">approximately 7 years.</span></li>
                             </ul>
 
-                            <p class="my-3">Safety Note for Monitor​</p>
+                            <p class="mt-12 mb-4 text-2xl">Safety Note for Monitor​</p>
 
                             <p>When adjusting the height or position of the monitor, be careful of the space in the
                                 middle of the monitor arm. Having your fingers or other body parts caught in it may
@@ -1132,7 +1172,7 @@
                             <img src="img/148)slide 139 monitor.png" class="w-full max-w-xl mx-auto">
                             <h2 class="text-lg mb-4">Biological Safety​​</h2>
                             <p class="my-3 text-error"><strong>WARNING: </strong></p>
-                            <ul>
+                            <ul class="list-disc leading-7">
                                 <li>Ultrasound waves may have damaging effects on cells and, therefore, may be
                                     harmful to the patient. If there is no medical benefit, minimize the
                                     exposure time and maintain the ultrasound wave output level at low. Please

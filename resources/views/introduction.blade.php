@@ -142,6 +142,7 @@
                         imaging and fluid analysis of the human body.</h4>
                     <p class="mb-4 font-bold">Principles of Operation​</p>
 
+
                     <p class="text-justify"> Medical ultrasound images are created by computer and digital memory from
                         the
                         transmission ​
@@ -173,6 +174,10 @@
                         processing ​
 
                         characteristics are controlled by computer.​ </p>
+                    <audio controls class="flex flex-end my-5">
+                        <source src="./sound/principle of operation slide 9.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
             </section>
             <section class="px-10 py-10 bg-base-200" id="configuration">
                 <h1 class="uppercase text-3xl mb-5 text-primary">configuration</h1>

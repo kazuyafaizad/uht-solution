@@ -23,24 +23,35 @@
                 <h1 class="uppercase text-3xl mb-5 text-primary">BLOCK DIAGRAM</h1>
                 <img src="/img/59) slide 38 block diagram.png" alt="" class="w-full max-w-xl mx-auto">
                 <p class="font-bold mt-5">SONOACER7 consists of the following major components.​</p>
-
+                <audio controls class="flex flex-end my-5">
+                    <source src="./sound/SONO slide 39.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
                 <ol class="list-decimal leading-7 my-4">
                     <li>Ultrasound System Part : PSA, Main Board, CW Board, DC to DC Power Module​</li>
 
                     <li>User Interface Part : LCD Monitor, Control Panel, Track Ball, Alphanumeric Keyboard</li>
                 </ol>
-                <p class="text-justify">Front End Part refers to the CW (Continuous Wave) Board, PSA (Probe Select
+                <p class="text-justify my-4">Front End Part refers to the CW (Continuous Wave) Board, PSA (Probe Select
                     Assembly),
                     and BF
                     (Beamformer) Board of the Ultrasound System Part. The Front End Part delivers High Voltage Pulser to
                     the probe so that ultrasound is generated, amplifies the returned echo signal and processes Digital
                     Beamforming. The RF signal generated here is delivered to the Back End Part.​</p>
-                <p class="text-justify">
+                <audio controls class="flex flex-end my-5">
+                    <source src="./sound/FRONT slide 39.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="text-justify my-4">
                     Back End Part refers to the BE(Back End) Board and PC of the Ultrasound System Part. ​
                     The RF signal generated in the BF(Beamformer) Board is processed to diagnosis image such as BW,
                     Color Doppler, PW Doppler, CW Doppler, and Power Doppler and displayed on the monitor so that users
                     can see it. ​
                     User Interface Part refers to the LCD monitor and control panel​</p>
+                <audio controls class="flex flex-end my-5">
+                    <source src="./sound/back end slide 39.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
             </section>
             <section class="px-10 py-10 bg-base-200" id="phantom">
                 <h1 class="uppercase text-3xl mb-5 text-primary">PHANTOM CIRS (General Purpose Multi-Tissue Ultrasound
@@ -85,7 +96,7 @@
 
                 </ul>
 
-                <h2 class="my-4">KEY PERFORMANCE MEASUREMENT​​</h2>
+                <h2 class="mt-12 mb-5 text-2xl">KEY PERFORMANCE MEASUREMENT​​</h2>
                 <div class="grid grid-cols-2">
                     <img src="/img/63)slide 42 KEY PERFORMANCE MEASUREMENT1.png" alt="" class=" mx-auto">
                     <img src="/img/63)slide 42 KEY PERFORMANCE MEASUREMENT 2.png" alt="" class=" mx-auto">
@@ -652,7 +663,7 @@
 
                 <img src="img/79)slide 71 probe.png" class="mx-auto w-1/2" alt="">
 
-                <div class="my-2">
+                <div class="mt-12">
                     <h3 class="font-semibold">Probe Application and Preset​</h3>
                     <p>Probes, applications and settings available for this product are as follows​
                         curvelinear , volume probe </p>
@@ -679,7 +690,7 @@
                     </div>
                 </div>
 
-                <div class="my-4">
+                <div class="mt-12">
                     <h2 class="text-xl mb-4">Ultrasound Transmission Gel​</h2>
 
                     <p class="mb-4">Using an inappropriate ultrasound gel may damage the probe. For proper
@@ -689,7 +700,7 @@
                         <img src="img/83)slide 74 sono gel.png" alt="" class="m-auto">
                         <img src="img/84)slide 74 ultrasound gel.png" alt="" class="w-52 m-auto">
                     </div>
-                    <p><strong class="text-error">WARNING</strong><br> ​
+                    <p class="mb-4 leadin-7"><strong class="text-error">WARNING</strong><br> ​
 
                         • Do not use mineral oil, Oil-based solutions, or other non-approved material as they may cause
                         damage to the probe.​<br>
@@ -711,7 +722,7 @@
                         - Any lotions or gels containing perfume​</p>
 
                 </div>
-                <div class="my-4">
+                <div class="mt-12">
                     <h2 class="text-xl mb-4">Sheaths​​</h2>
 
                     <p class="mb-4">Sheaths are recommended for clinical applications of an invasive nature,
@@ -722,7 +733,7 @@
                     <img src="img/85)slide 75 sheaths.png" alt="" class="mb-4 mx-auto">
 
 
-                    <p>Always keep sheaths in a sterile state. ​<br>
+                    <p class="leading-7">Always keep sheaths in a sterile state. ​<br>
 
                         • Sheaths are disposable. Do not reuse them.​<br>
 
@@ -758,7 +769,7 @@
 
                 </div>
 
-                <div class="my-4">
+                <div class="mt-12">
                     <h2 class="text-xl mb-4">Disinfectants for System Surfaces (with Monitor)​</h2>
                     <ul class="mb-4 list-disc leading-7">
                         <li>Using a non-compatible disinfection procedure may result in damage to the system. Ensure to
@@ -784,12 +795,12 @@
 
                 </div>
 
-                <div class="my-4">
+                <div class="mt-12">
                     <h2 class="text-xl mb-4">Cleaning, Disinfecting, and Sterilizing the Probe​​</h2>
                     <p class="font-bold mb-3">
                         Cleaning​</p>
 
-                    <p class="mb-3">Cleaning is an important procedure that is carried out before
+                    <p class="mb-3 leading-7">Cleaning is an important procedure that is carried out before
                         disinfecting the
                         probe. The probe
                         must be cleaned after each use.​ <br><br>
@@ -828,8 +839,8 @@
                             details ,click
                             this file</small></a>
 
-                    <p><strong class="text-error">WARNING</strong></p>
-                    <ul>
+                    <p class="mt-12"><strong class="text-error">WARNING</strong></p>
+                    <ul class="list-disc leading-7">
                         <li>If a pre-mixed solution is used, be sure to observe the solution expiration date.
                         </li>
                         <li>The type of tissue it will contact during use dictates the level of disinfection
@@ -874,7 +885,7 @@
 
                 </div>
 
-                <div class="my-4">
+                <div class="mt-12">
                     <h2 class="text-xl mb-4">Ultrasound Probe Movements and Manipulation from picos 101 ​​​
                     </h2>
 

@@ -62,7 +62,7 @@
                                 <div class="case-img">
                                     <a href="#" class="cate-w"><img src="./assets/images/course/beg.png"
                                             alt="Beginner">Interactive</a>
-                                    <img src="./assets/images/course-filter/1.jpg" alt="Course Image">
+                                    <img src="./assets/images/banners/sonoace.png" alt="Course Image">
                                 </div>
                                 <div class="case-content">
                                     <h4 class="case-title"> <a href="how-to-use-ultrasound-sonoace-r7">How
@@ -85,7 +85,7 @@
                                 <div class="case-img">
                                     <a href="#" class="cate-w"><img src="./assets/images/course/beg.png"
                                             alt="Beginner">Interactive</a>
-                                    <img src="./assets/images/course-filter/1.jpg" alt="Course Image">
+                                    <img src="./assets/images/banners/bladder.png" alt="Course Image">
                                 </div>
                                 <div class="case-content">
                                     <h4 class="case-title"> <a href="how-to-scan-bladder">How To Scan Bladder</a>
@@ -107,7 +107,7 @@
                                 <div class="case-img">
                                     <a href="#" class="cate-w"><img src="./assets/images/course/beg.png"
                                             alt="Beginner">Interactive</a>
-                                    <img src="./assets/images/course-filter/1.jpg" alt="Course Image">
+                                    <img src="./assets/images/banners/scankidney.png" alt="Course Image">
                                 </div>
                                 <div class="case-content">
                                     <h4 class="case-title"> <a href="how-to-scan-kidney">How To Scan Kidney</a>
@@ -129,7 +129,7 @@
                                 <div class="case-img">
                                     <a href="#" class="cate-w"><img src="./assets/images/course/beg.png"
                                             alt="Beginner">Interactive</a>
-                                    <img src="./assets/images/course-filter/1.jpg" alt="Course Image">
+                                    <img src="./assets/images/banners/howtouse3d.png" alt="Course Image">
                                 </div>
                                 <div class="case-content">
                                     <h4 class="case-title"> <a href="how-to-get-three-dimension-image">How To Get
@@ -151,7 +151,7 @@
                                 <div class="case-img">
                                     <a href="#" class="cate-w"><img src="./assets/images/course/beg.png"
                                             alt="Beginner">Interactive</a>
-                                    <img src="./assets/images/course-filter/1.jpg" alt="Course Image">
+                                    <img src="./assets/images/banners/liveraorta.png" alt="Course Image">
                                 </div>
                                 <div class="case-content">
                                     <h4 class="case-title"> <a href="how-to-scan-liver-gallblader-and-aorta">How
