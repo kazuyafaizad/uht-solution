@@ -36,7 +36,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="course-single">
+<body class="course-single position-relative">
     <!--================= Preloader Section Start Here =================-->
     <div id="react__preloader">
         <div id="react__circle_loader"></div>
@@ -45,7 +45,7 @@
     <!--================= Preloader Section End Here =================-->
 
     <!--================= Wrapper Start Here =================-->
-    <div class="react-wrapper">
+    <div class="react-wrapper py-5">
         <div class="react-wrapper-inner">
             <!--================= Breadcrumbs Section Start Here =================-->
 
@@ -98,7 +98,7 @@
     <!--================= Wrapper End Here =================-->
 
     <!--================= Footer Section Start Here =================-->
-    <footer class="footer items-center p-4 bg-primary text-primary-content absolute bottom-0">
+    <footer class="footer items-center p-4 bg-primary text-primary-content absolute bottom-0 mt-5 mt-5">
         <div class="items-center grid-flow-col">
             <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                 fill-rule="evenodd" clip-rule="evenodd" class="fill-current">
@@ -110,5 +110,55 @@
         </div>
         <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             <a>
+            </a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                    </path>
+                </svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                    </path>
+                </svg></a>
+        </div>
+    </footer>
+    <!--================= Footer Section End Here =================-->
+
+    <!--================= Scroll to Top Start =================-->
+    <div id="backscrollUp">
+        <span aria-hidden="true" class="arrow_carrot-up"></span>
+    </div>
+    <!--================= Scroll to Top End =================-->
+
+    <!--================= Jquery latest version =================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--================= Modernizr js =================-->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+    <!--================= Bootstrap js =================-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--================= Owl Carousel js =================-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--================= Magnific Popup =================-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--================= Counter up js =================-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <!--================= Wow js =================-->
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--================= Imagesloaded.pkgd.min js =================-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!--================= skill.bars.jquery.js =================-->
+    <script src="assets/js/skill.bars.jquery.js"></script>
+    <!--================= menus js =================-->
+    <script src="assets/js/menus.js"></script>
+    <!--================= Plugins js =================-->
+    <script src="assets/js/plugins.js"></script>
+    <!--================= Main js =================-->
+    <script src="assets/js/main.js"></script>
+</body>
 
 </html>

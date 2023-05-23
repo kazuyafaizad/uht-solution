@@ -11,7 +11,7 @@ class QuizController extends Controller
     public function index()
     {
         return view('quiz', [
-            'quizes' => Quiz::all()
+            'quizes' => Quiz::paginate(5)
         ]);
     }
 
@@ -30,7 +30,7 @@ class QuizController extends Controller
         ], [
             'title'     => $request->title,
             'link' => $request->link,
-            'category'    => $request->category,
+            'category'    => "",
         ]);
 
         return redirect()->back()->with('status', 'Quiz Has Been inserted/updated');
@@ -52,6 +52,6 @@ class QuizController extends Controller
     {
         $quiz->delete();
 
-        return redirect('/quiz/setting');
+        return redirect()->back();
     }
 }

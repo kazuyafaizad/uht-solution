@@ -36,7 +36,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="course-single">
+<body class="course-single position-relative">
     <!--================= Preloader Section Start Here =================-->
     <div id="react__preloader">
         <div id="react__circle_loader"></div>
@@ -45,7 +45,7 @@
     <!--================= Preloader Section End Here =================-->
 
     <!--================= Wrapper Start Here =================-->
-    <div class="react-wrapper">
+    <div class="react-wrapper py-5">
         <div class="react-wrapper-inner">
             <!--================= Breadcrumbs Section Start Here =================-->
 
@@ -98,7 +98,7 @@
     <!--================= Wrapper End Here =================-->
 
     <!--================= Footer Section Start Here =================-->
-    <footer class="footer items-center p-4 bg-primary text-primary-content absolute bottom-0">
+    <footer class="footer items-center p-4 bg-primary text-primary-content absolute bottom-0 mt-5">
         <div class="items-center grid-flow-col">
             <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                 fill-rule="evenodd" clip-rule="evenodd" class="fill-current">

@@ -36,7 +36,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="course-single">
+<body class="course-single position-relative">
     <!--================= Preloader Section Start Here =================-->
     <div id="react__preloader">
         <div id="react__circle_loader"></div>
@@ -45,7 +45,7 @@
     <!--================= Preloader Section End Here =================-->
 
     <!--================= Wrapper Start Here =================-->
-    <div class="react-wrapper">
+    <div class="react-wrapper py-5">
         <div class="react-wrapper-inner">
             <!--================= Breadcrumbs Section Start Here =================-->
 
@@ -61,9 +61,9 @@
                                 <div class="tab-content" id="back-tab-content">
                                     <div class="tab-pane fade show active" id="discription" role="tabpanel"
                                         aria-labelledby="discription">
-                                        <h3>How To Scan Bladder</h3>
+                                        <h3>How To Scan Kidney</h3>
                                         <div class="image-banner"><iframe
-                                                src="https://app.Lumi.education/api/v1/run/RplTSG/embed" width="1088"
+                                                src="https://app.Lumi.education/api/v1/run/-HqglA/embed" width="1088"
                                                 height="720" frameborder="0" allowfullscreen="allowfullscreen"
                                                 allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
                                             <script src="https://app.Lumi.education/api/v1/h5p/core/js/h5p-resizer.js" charset="UTF-8"></script>

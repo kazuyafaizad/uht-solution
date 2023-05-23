@@ -37,7 +37,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="courses-grid-page">
+<body class="courses-grid-page position-relative">
     <!--================= Preloader Section Start Here =================-->
     <div id="react__preloader">
         <div id="react__circle_loader"></div>
@@ -46,7 +46,7 @@
     <!--================= Preloader Section End Here =================-->
 
     <!--================= Wrapper Start Here =================-->
-    <div class="react-wrapper">
+    <div class="react-wrapper py-5">
         <div class="react-wrapper-inner">
             @include('layouts.navigation')
             <!--================= Breadcrumbs Section End Here =================-->
